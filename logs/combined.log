@@ -1,0 +1,1596 @@
+2024-05-21 12:26:47 [[32minfo[39m]: Starting positive test case: TC_Login_Positive_01
+2024-05-21 12:26:47 [[32minfo[39m]: Clicking on the login button
+2024-05-21 12:26:47 [[31merror[39m]: Error during login: page.click: selector: expected string, got object
+2024-05-21 12:26:47 [[31merror[39m]: Test case TC_Login_Positive_01 failed with error: page.click: selector: expected string, got object
+2024-05-21 12:26:49 [[32minfo[39m]: Starting positive test case: TC_Login_Positive_01
+2024-05-21 12:26:49 [[32minfo[39m]: Clicking on the login button
+2024-05-21 12:26:49 [[31merror[39m]: Error during login: page.click: selector: expected string, got object
+2024-05-21 12:26:49 [[31merror[39m]: Test case TC_Login_Positive_01 failed with error: page.click: selector: expected string, got object
+2024-05-21 12:26:50 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_01
+2024-05-21 12:26:50 [[32minfo[39m]: Clicking on the login button
+2024-05-21 12:26:50 [[31merror[39m]: Error during login: page.click: selector: expected string, got object
+2024-05-21 12:26:50 [[31merror[39m]: Test case TC_Login_Negative_01 failed with error: page.click: selector: expected string, got object
+2024-05-21 12:26:52 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_01
+2024-05-21 12:26:52 [[32minfo[39m]: Clicking on the login button
+2024-05-21 12:26:52 [[31merror[39m]: Error during login: page.click: selector: expected string, got object
+2024-05-21 12:26:52 [[31merror[39m]: Test case TC_Login_Negative_01 failed with error: page.click: selector: expected string, got object
+2024-05-21 12:26:53 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-21 12:26:53 [[32minfo[39m]: Clicking on the login button
+2024-05-21 12:26:53 [[31merror[39m]: Error during login: page.click: selector: expected string, got object
+2024-05-21 12:26:53 [[31merror[39m]: Test case TC_Login_Negative_02 failed with error: page.click: selector: expected string, got object
+2024-05-21 12:26:55 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-21 12:26:55 [[32minfo[39m]: Clicking on the login button
+2024-05-21 12:26:55 [[31merror[39m]: Error during login: page.click: selector: expected string, got object
+2024-05-21 12:26:55 [[31merror[39m]: Test case TC_Login_Negative_02 failed with error: page.click: selector: expected string, got object
+2024-05-21 12:31:20 [[32minfo[39m]: Starting positive test case: TC_Login_Positive_01
+2024-05-21 12:31:20 [[32minfo[39m]: Clicking on the login button
+2024-05-21 12:31:20 [[32minfo[39m]: Entering email
+2024-05-21 12:31:21 [[32minfo[39m]: Entering password
+2024-05-21 12:31:21 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 12:31:21 [[32minfo[39m]: Waiting for navigation after login
+2024-05-21 12:31:49 [[31merror[39m]: Error during login: page.waitForNavigation: Test timeout of 30000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "networkidle"
+  navigated to "https://ecomstag.plieger.nl/account"
+  "domcontentloaded" event fired
+  "load" event fired
+============================================================
+2024-05-21 12:31:49 [[31merror[39m]: Test case TC_Login_Positive_01 failed with error: page.waitForNavigation: Test timeout of 30000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "networkidle"
+  navigated to "https://ecomstag.plieger.nl/account"
+  "domcontentloaded" event fired
+  "load" event fired
+============================================================
+2024-05-21 12:31:54 [[32minfo[39m]: Starting positive test case: TC_Login_Positive_01
+2024-05-21 12:31:54 [[32minfo[39m]: Clicking on the login button
+2024-05-21 12:31:54 [[32minfo[39m]: Entering email
+2024-05-21 12:31:55 [[32minfo[39m]: Entering password
+2024-05-21 12:31:55 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 12:31:56 [[32minfo[39m]: Waiting for navigation after login
+2024-05-21 12:32:23 [[31merror[39m]: Error during login: page.waitForNavigation: Test timeout of 30000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "networkidle"
+  navigated to "https://ecomstag.plieger.nl/account"
+  "domcontentloaded" event fired
+  "load" event fired
+============================================================
+2024-05-21 12:32:23 [[31merror[39m]: Test case TC_Login_Positive_01 failed with error: page.waitForNavigation: Test timeout of 30000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "networkidle"
+  navigated to "https://ecomstag.plieger.nl/account"
+  "domcontentloaded" event fired
+  "load" event fired
+============================================================
+2024-05-21 12:32:28 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_01
+2024-05-21 12:32:28 [[32minfo[39m]: Clicking on the login button
+2024-05-21 12:32:28 [[32minfo[39m]: Entering email
+2024-05-21 12:32:29 [[32minfo[39m]: Entering password
+2024-05-21 12:32:29 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 12:32:29 [[32minfo[39m]: Waiting for navigation after login
+2024-05-21 12:32:56 [[31merror[39m]: Error during login: page.waitForNavigation: Test timeout of 30000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "networkidle"
+============================================================
+2024-05-21 12:32:56 [[31merror[39m]: Test case TC_Login_Negative_01 failed with error: page.waitForNavigation: Test timeout of 30000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "networkidle"
+============================================================
+2024-05-21 12:33:01 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_01
+2024-05-21 12:33:01 [[32minfo[39m]: Clicking on the login button
+2024-05-21 12:33:01 [[32minfo[39m]: Entering email
+2024-05-21 12:33:02 [[32minfo[39m]: Entering password
+2024-05-21 12:33:02 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 12:33:02 [[32minfo[39m]: Waiting for navigation after login
+2024-05-21 12:33:31 [[31merror[39m]: Error during login: page.waitForNavigation: Test timeout of 30000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "networkidle"
+============================================================
+2024-05-21 12:33:31 [[31merror[39m]: Test case TC_Login_Negative_01 failed with error: page.waitForNavigation: Test timeout of 30000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "networkidle"
+============================================================
+2024-05-21 12:33:35 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-21 12:33:35 [[32minfo[39m]: Clicking on the login button
+2024-05-21 12:33:36 [[32minfo[39m]: Entering email
+2024-05-21 12:33:37 [[32minfo[39m]: Entering password
+2024-05-21 12:33:37 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 12:33:37 [[32minfo[39m]: Waiting for navigation after login
+2024-05-21 12:34:05 [[31merror[39m]: Error during login: page.waitForNavigation: Test timeout of 30000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "networkidle"
+============================================================
+2024-05-21 12:34:05 [[31merror[39m]: Test case TC_Login_Negative_02 failed with error: page.waitForNavigation: Test timeout of 30000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "networkidle"
+============================================================
+2024-05-21 12:34:09 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-21 12:34:09 [[32minfo[39m]: Clicking on the login button
+2024-05-21 12:34:09 [[32minfo[39m]: Entering email
+2024-05-21 12:34:11 [[32minfo[39m]: Entering password
+2024-05-21 12:34:11 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 12:34:11 [[32minfo[39m]: Waiting for navigation after login
+2024-05-21 12:34:39 [[31merror[39m]: Error during login: page.waitForNavigation: Test timeout of 30000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "networkidle"
+============================================================
+2024-05-21 12:34:39 [[31merror[39m]: Test case TC_Login_Negative_02 failed with error: page.waitForNavigation: Test timeout of 30000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "networkidle"
+============================================================
+2024-05-21 12:42:40 [[32minfo[39m]: Starting positive test case: TC_Login_Positive_01
+2024-05-21 12:42:40 [[32minfo[39m]: Clicking on the login button
+2024-05-21 12:42:41 [[32minfo[39m]: Entering email
+2024-05-21 12:42:41 [[32minfo[39m]: Entering password
+2024-05-21 12:42:41 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 12:42:41 [[32minfo[39m]: Waiting for navigation after login
+2024-05-21 12:42:41 [[31merror[39m]: Test case TC_Login_Positive_01 failed with error: homePage.getURL is not a function
+2024-05-21 12:42:42 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_01
+2024-05-21 12:42:42 [[32minfo[39m]: Clicking on the login button
+2024-05-21 12:42:43 [[32minfo[39m]: Entering email
+2024-05-21 12:42:44 [[32minfo[39m]: Entering password
+2024-05-21 12:42:45 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 12:42:45 [[32minfo[39m]: Waiting for navigation after login
+2024-05-21 12:42:45 [[31merror[39m]: Test case TC_Login_Negative_01 failed with error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+2024-05-21 12:42:46 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-21 12:42:46 [[32minfo[39m]: Clicking on the login button
+2024-05-21 12:42:46 [[32minfo[39m]: Entering email
+2024-05-21 12:42:48 [[32minfo[39m]: Entering password
+2024-05-21 12:42:48 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 12:42:48 [[32minfo[39m]: Waiting for navigation after login
+2024-05-21 12:42:48 [[32minfo[39m]: Test case TC_Login_Negative_02 passed
+2024-05-21 12:53:52 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 12:53:52 [[32minfo[39m]: Starting positive test case: TC_01_Login_With_Valid_Credentials
+2024-05-21 12:53:52 [[32minfo[39m]: Clicking on the login button
+2024-05-21 12:53:54 [[32minfo[39m]: Entering email
+2024-05-21 12:53:54 [[32minfo[39m]: Entering password
+2024-05-21 12:53:54 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 12:53:54 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-21 12:53:56 [[32minfo[39m]: Current URL: https://ecomstag.plieger.nl/account
+2024-05-21 12:53:56 [[32minfo[39m]: Test case TC_01_Login_With_Valid_Credentials passed
+2024-05-21 12:53:57 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 12:53:57 [[32minfo[39m]: Starting negative test case: TC_02_Login_With_invalid_Credentials
+2024-05-21 12:53:57 [[32minfo[39m]: Clicking on the login button
+2024-05-21 12:53:58 [[32minfo[39m]: Entering email
+2024-05-21 12:53:58 [[32minfo[39m]: Entering password
+2024-05-21 12:53:58 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 12:53:58 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-21 12:54:26 [[31merror[39m]: Error during login: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('button.my-account-nav-button__button') to be visible[22m
+
+2024-05-21 12:54:26 [[31merror[39m]: Test case TC_02_Login_With_invalid_Credentials failed with error: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('button.my-account-nav-button__button') to be visible[22m
+
+2024-05-21 12:54:31 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 12:54:32 [[32minfo[39m]: Starting negative test case: TC_03_Login_With_Empty_Credentials
+2024-05-21 12:54:32 [[32minfo[39m]: Clicking on the login button
+2024-05-21 12:54:33 [[32minfo[39m]: Entering email
+2024-05-21 12:54:33 [[32minfo[39m]: Entering password
+2024-05-21 12:54:33 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 12:54:33 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-21 12:55:00 [[31merror[39m]: Error during login: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('button.my-account-nav-button__button') to be visible[22m
+
+2024-05-21 12:55:00 [[31merror[39m]: Test case TC_03_Login_With_Empty_Credentials failed with error: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('button.my-account-nav-button__button') to be visible[22m
+
+2024-05-21 13:03:38 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 13:03:38 [[32minfo[39m]: Starting positive test case: TC_01_Login_With_Valid_Credentials
+2024-05-21 13:03:38 [[32minfo[39m]: Clicking on the login button
+2024-05-21 13:03:39 [[32minfo[39m]: Entering email
+2024-05-21 13:03:39 [[32minfo[39m]: Entering password
+2024-05-21 13:03:39 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 13:03:39 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-21 13:03:41 [[32minfo[39m]: Current URL: https://ecomstag.plieger.nl/account
+2024-05-21 13:03:41 [[32minfo[39m]: Test case TC_01_Login_With_Valid_Credentials passed
+2024-05-21 13:03:42 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 13:03:42 [[32minfo[39m]: Starting negative test case: TC_02_Login_With_invalid_Credentials
+2024-05-21 13:03:42 [[32minfo[39m]: Clicking on the login button
+2024-05-21 13:03:42 [[32minfo[39m]: Entering email
+2024-05-21 13:03:43 [[32minfo[39m]: Entering password
+2024-05-21 13:03:43 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 13:03:43 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-21 13:04:11 [[31merror[39m]: Error during login: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('button.my-account-nav-button__button') to be visible[22m
+
+2024-05-21 13:04:11 [[31merror[39m]: Test case TC_02_Login_With_invalid_Credentials failed with error: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('button.my-account-nav-button__button') to be visible[22m
+
+2024-05-21 13:04:16 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 13:04:17 [[32minfo[39m]: Starting negative test case: TC_03_Login_With_Empty_Credentials
+2024-05-21 13:04:17 [[32minfo[39m]: Clicking on the login button
+2024-05-21 13:04:17 [[32minfo[39m]: Entering email
+2024-05-21 13:04:17 [[32minfo[39m]: Entering password
+2024-05-21 13:04:17 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 13:04:17 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-21 13:04:46 [[31merror[39m]: Error during login: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('button.my-account-nav-button__button') to be visible[22m
+
+2024-05-21 13:04:46 [[31merror[39m]: Test case TC_03_Login_With_Empty_Credentials failed with error: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('button.my-account-nav-button__button') to be visible[22m
+
+2024-05-21 13:05:48 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 13:05:48 [[32minfo[39m]: Starting positive test case: TC_01_Login_With_Valid_Credentials
+2024-05-21 13:05:48 [[32minfo[39m]: Clicking on the login button
+2024-05-21 13:05:49 [[32minfo[39m]: Entering email
+2024-05-21 13:05:49 [[32minfo[39m]: Entering password
+2024-05-21 13:05:49 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 13:05:49 [[32minfo[39m]: Current URL: https://ecomstag.plieger.nl/login
+2024-05-21 13:05:49 [[31merror[39m]: Test case TC_01_Login_With_Valid_Credentials failed with error: [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+Expected substring: [32m"account"[39m
+Received string:    [31m"https://ecomstag.plieger.nl/login"[39m
+2024-05-21 13:05:51 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 13:05:51 [[32minfo[39m]: Starting negative test case: TC_02_Login_With_invalid_Credentials
+2024-05-21 13:05:51 [[32minfo[39m]: Clicking on the login button
+2024-05-21 13:05:52 [[32minfo[39m]: Entering email
+2024-05-21 13:05:52 [[32minfo[39m]: Entering password
+2024-05-21 13:05:52 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 13:05:52 [[31merror[39m]: Test case TC_02_Login_With_invalid_Credentials failed with error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+2024-05-21 13:05:54 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 13:05:54 [[32minfo[39m]: Starting negative test case: TC_03_Login_With_Empty_Credentials
+2024-05-21 13:05:54 [[32minfo[39m]: Clicking on the login button
+2024-05-21 13:05:55 [[32minfo[39m]: Entering email
+2024-05-21 13:05:55 [[32minfo[39m]: Entering password
+2024-05-21 13:05:55 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 13:05:55 [[32minfo[39m]: Test case TC_03_Login_With_Empty_Credentials passed
+2024-05-21 13:16:03 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 13:16:04 [[32minfo[39m]: Starting positive test case: TC_Login_Positive_01
+2024-05-21 13:16:04 [[32minfo[39m]: Clicking on the login button
+2024-05-21 13:16:05 [[32minfo[39m]: Entering email
+2024-05-21 13:16:05 [[32minfo[39m]: Entering password
+2024-05-21 13:16:05 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 13:16:05 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-21 13:16:07 [[32minfo[39m]: Current URL: https://ecomstag.plieger.nl/account
+2024-05-21 13:16:07 [[32minfo[39m]: Test case TC_Login_Positive_01 passed
+2024-05-21 13:16:08 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 13:16:08 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_01
+2024-05-21 13:16:08 [[32minfo[39m]: Clicking on the login button
+2024-05-21 13:16:08 [[32minfo[39m]: Entering email
+2024-05-21 13:16:10 [[32minfo[39m]: Entering password
+2024-05-21 13:16:10 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 13:16:10 [[32minfo[39m]: Waiting for error message to be visible
+2024-05-21 13:16:10 [[31merror[39m]: Test case TC_Login_Negative_01 failed with error: Cannot read properties of undefined (reading 'invalidCredentials')
+2024-05-21 13:16:12 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 13:16:12 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-21 13:16:12 [[32minfo[39m]: Clicking on the login button
+2024-05-21 13:16:13 [[32minfo[39m]: Entering email
+2024-05-21 13:16:13 [[32minfo[39m]: Entering password
+2024-05-21 13:16:13 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 13:16:13 [[32minfo[39m]: Waiting for error message to be visible
+2024-05-21 13:16:41 [[31merror[39m]: Error during login: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('.inline-notification__content:has-text("Combinatie e-mail en wachtwoord onjuist")') to be visible[22m
+
+2024-05-21 13:16:41 [[31merror[39m]: Test case TC_Login_Negative_02 failed with error: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('.inline-notification__content:has-text("Combinatie e-mail en wachtwoord onjuist")') to be visible[22m
+
+2024-05-21 13:20:16 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 13:20:16 [[32minfo[39m]: Starting positive test case: TC_Login_Positive_01
+2024-05-21 13:20:16 [[32minfo[39m]: Clicking on the login button
+2024-05-21 13:20:17 [[32minfo[39m]: Entering email
+2024-05-21 13:20:18 [[32minfo[39m]: Entering password
+2024-05-21 13:20:18 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 13:20:18 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-21 13:20:19 [[32minfo[39m]: Current URL: https://ecomstag.plieger.nl/account
+2024-05-21 13:20:19 [[32minfo[39m]: Test case TC_Login_Positive_01 passed
+2024-05-21 13:20:21 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 13:20:21 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_01
+2024-05-21 13:20:21 [[32minfo[39m]: Clicking on the login button
+2024-05-21 13:20:21 [[32minfo[39m]: Entering email
+2024-05-21 13:20:23 [[32minfo[39m]: Entering password
+2024-05-21 13:20:23 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 13:20:23 [[32minfo[39m]: Waiting for error message to be visible
+2024-05-21 13:20:23 [[31merror[39m]: Test case TC_Login_Negative_01 failed with error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+2024-05-21 13:20:25 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 13:20:25 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-21 13:20:25 [[32minfo[39m]: Clicking on the login button
+2024-05-21 13:20:26 [[32minfo[39m]: Entering email
+2024-05-21 13:20:26 [[32minfo[39m]: Entering password
+2024-05-21 13:20:26 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 13:20:26 [[32minfo[39m]: Waiting for error message to be visible
+2024-05-21 13:20:54 [[31merror[39m]: Error during login: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('.inline-notification__content:has-text("Combinatie e-mail en wachtwoord onjuist")') to be visible[22m
+
+2024-05-21 13:20:54 [[31merror[39m]: Test case TC_Login_Negative_02 failed with error: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('.inline-notification__content:has-text("Combinatie e-mail en wachtwoord onjuist")') to be visible[22m
+
+2024-05-21 13:27:43 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 13:27:43 [[32minfo[39m]: Starting positive test case: TC_Login_Positive_01
+2024-05-21 13:27:43 [[32minfo[39m]: Clicking on the login button
+2024-05-21 13:27:45 [[32minfo[39m]: Entering email
+2024-05-21 13:27:45 [[32minfo[39m]: Entering password
+2024-05-21 13:27:45 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 13:27:45 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-21 13:27:47 [[32minfo[39m]: Current URL: https://ecomstag.plieger.nl/account
+2024-05-21 13:27:47 [[32minfo[39m]: Test case TC_Login_Positive_01 passed
+2024-05-21 13:27:48 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 13:27:48 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_01
+2024-05-21 13:27:48 [[32minfo[39m]: Clicking on the login button
+2024-05-21 13:27:49 [[32minfo[39m]: Entering email
+2024-05-21 13:27:50 [[32minfo[39m]: Entering password
+2024-05-21 13:27:50 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 13:27:50 [[32minfo[39m]: Waiting for error message to be visible
+2024-05-21 13:27:50 [[32minfo[39m]: Error message visible: true
+2024-05-21 13:27:50 [[32minfo[39m]: Test case TC_Login_Negative_01 passed
+2024-05-21 13:27:51 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 13:27:51 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-21 13:27:51 [[32minfo[39m]: Clicking on the login button
+2024-05-21 13:27:51 [[32minfo[39m]: Entering email
+2024-05-21 13:27:51 [[32minfo[39m]: Entering password
+2024-05-21 13:27:51 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 13:27:51 [[32minfo[39m]: Waiting for error message to be visible
+2024-05-21 13:28:20 [[31merror[39m]: Error during login: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('.inline-notification__content:has-text("Combinatie e-mail en wachtwoord onjuist")') to be visible[22m
+
+2024-05-21 13:28:20 [[31merror[39m]: Test case TC_Login_Negative_02 failed with error: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('.inline-notification__content:has-text("Combinatie e-mail en wachtwoord onjuist")') to be visible[22m
+
+2024-05-21 13:38:55 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 13:38:55 [[32minfo[39m]: Starting positive test case: TC_Login_Positive_01
+2024-05-21 13:38:55 [[32minfo[39m]: Clicking on the login button
+2024-05-21 13:38:56 [[32minfo[39m]: Entering email
+2024-05-21 13:38:56 [[32minfo[39m]: Entering password
+2024-05-21 13:38:56 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 13:38:56 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-21 13:38:58 [[32minfo[39m]: Current URL: https://ecomstag.plieger.nl/account
+2024-05-21 13:38:58 [[32minfo[39m]: Test case TC_Login_Positive_01 passed
+2024-05-21 13:39:00 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 13:39:00 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_01
+2024-05-21 13:39:00 [[32minfo[39m]: Clicking on the login button
+2024-05-21 13:39:01 [[32minfo[39m]: Entering email
+2024-05-21 13:39:01 [[32minfo[39m]: Entering password
+2024-05-21 13:39:01 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 13:39:02 [[32minfo[39m]: Waiting for error message to be visible
+2024-05-21 13:39:02 [[32minfo[39m]: Error message visible: true
+2024-05-21 13:39:02 [[32minfo[39m]: Test case TC_Login_Negative_01 passed
+2024-05-21 13:39:03 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 13:39:03 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-21 13:39:03 [[32minfo[39m]: Clicking on the login button
+2024-05-21 13:39:03 [[32minfo[39m]: Entering email
+2024-05-21 13:39:03 [[32minfo[39m]: Entering password
+2024-05-21 13:39:03 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 13:39:03 [[32minfo[39m]: Waiting for error message to be visible
+2024-05-21 13:39:32 [[31merror[39m]: Error during login: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('.inline-notification__content:has-text("Combinatie e-mail en wachtwoord onjuist")') to be visible[22m
+
+2024-05-21 13:39:32 [[31merror[39m]: Test case TC_Login_Negative_02 failed with error: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('.inline-notification__content:has-text("Combinatie e-mail en wachtwoord onjuist")') to be visible[22m
+
+2024-05-21 13:48:44 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 13:48:45 [[32minfo[39m]: Starting positive test case: TC_Login_Positive_01
+2024-05-21 13:48:45 [[32minfo[39m]: Clicking on the login button
+2024-05-21 13:48:45 [[32minfo[39m]: Entering email
+2024-05-21 13:48:46 [[32minfo[39m]: Entering password
+2024-05-21 13:48:46 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 13:48:46 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-21 13:48:48 [[32minfo[39m]: Current URL: https://ecomstag.plieger.nl/account
+2024-05-21 13:48:48 [[32minfo[39m]: Test case TC_Login_Positive_01 passed
+2024-05-21 13:48:49 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 13:48:49 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_01
+2024-05-21 13:48:49 [[32minfo[39m]: Clicking on the login button
+2024-05-21 13:48:51 [[32minfo[39m]: Entering email
+2024-05-21 13:48:51 [[32minfo[39m]: Entering password
+2024-05-21 13:48:51 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 13:48:51 [[32minfo[39m]: Waiting for invalid credentials error message to be visible
+2024-05-21 13:48:51 [[32minfo[39m]: Error message visible: true
+2024-05-21 13:48:51 [[32minfo[39m]: Test case TC_Login_Negative_01 passed
+2024-05-21 13:48:52 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 13:48:52 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-21 13:48:52 [[32minfo[39m]: Clicking on the login button
+2024-05-21 13:48:53 [[32minfo[39m]: Entering email
+2024-05-21 13:48:53 [[32minfo[39m]: Entering password
+2024-05-21 13:48:53 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 13:48:53 [[32minfo[39m]: Waiting for empty email error message to be visible
+2024-05-21 13:49:21 [[31merror[39m]: Error during login: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('span[data-formik-error="true"]:has-text("Vul een geldig e-mailadres in, bijvoorbeeld test@plieger.nl")') to be visible[22m
+
+2024-05-21 13:49:21 [[31merror[39m]: Test case TC_Login_Negative_02 failed with error: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('span[data-formik-error="true"]:has-text("Vul een geldig e-mailadres in, bijvoorbeeld test@plieger.nl")') to be visible[22m
+
+2024-05-21 13:53:24 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 13:53:24 [[32minfo[39m]: Starting positive test case: TC_Login_Positive_01
+2024-05-21 13:53:24 [[32minfo[39m]: Clicking on the login button
+2024-05-21 13:53:26 [[32minfo[39m]: Entering email
+2024-05-21 13:53:26 [[32minfo[39m]: Entering password
+2024-05-21 13:53:26 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 13:53:26 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-21 13:53:28 [[32minfo[39m]: Current URL: https://ecomstag.plieger.nl/account
+2024-05-21 13:53:28 [[32minfo[39m]: Test case TC_Login_Positive_01 passed
+2024-05-21 13:53:29 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 13:53:29 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_01
+2024-05-21 13:53:29 [[32minfo[39m]: Clicking on the login button
+2024-05-21 13:53:30 [[32minfo[39m]: Entering email
+2024-05-21 13:53:31 [[32minfo[39m]: Entering password
+2024-05-21 13:53:31 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 13:53:31 [[32minfo[39m]: Waiting for invalid credentials error message to be visible
+2024-05-21 13:53:31 [[32minfo[39m]: Error message visible: true
+2024-05-21 13:53:31 [[32minfo[39m]: Test case TC_Login_Negative_01 passed
+2024-05-21 13:53:32 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 13:53:32 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-21 13:53:32 [[32minfo[39m]: Clicking on the login button
+2024-05-21 13:53:32 [[32minfo[39m]: Entering email
+2024-05-21 13:53:32 [[32minfo[39m]: Entering password
+2024-05-21 13:53:32 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 13:53:32 [[32minfo[39m]: Waiting for empty email error message to be visible
+2024-05-21 13:54:01 [[31merror[39m]: Error during login: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('span[data-formik-error="true"]:has-text("Vul een geldig e-mailadres in, bijvoorbeeld test@plieger.nl")') to be visible[22m
+
+2024-05-21 13:54:01 [[31merror[39m]: Test case TC_Login_Negative_02 failed with error: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('span[data-formik-error="true"]:has-text("Vul een geldig e-mailadres in, bijvoorbeeld test@plieger.nl")') to be visible[22m
+
+2024-05-21 13:57:25 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 13:57:26 [[32minfo[39m]: Starting positive test case: TC_Login_Positive_01
+2024-05-21 13:57:26 [[32minfo[39m]: Clicking on the login button
+2024-05-21 13:57:26 [[32minfo[39m]: Entering email
+2024-05-21 13:57:27 [[32minfo[39m]: Entering password
+2024-05-21 13:57:27 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 13:57:27 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-21 13:57:29 [[32minfo[39m]: Current URL: https://ecomstag.plieger.nl/account
+2024-05-21 13:57:29 [[32minfo[39m]: Test case TC_Login_Positive_01 passed
+2024-05-21 13:57:30 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 13:57:30 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_01
+2024-05-21 13:57:30 [[32minfo[39m]: Clicking on the login button
+2024-05-21 13:57:31 [[32minfo[39m]: Entering email
+2024-05-21 13:57:31 [[32minfo[39m]: Entering password
+2024-05-21 13:57:31 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 13:57:31 [[32minfo[39m]: Waiting for invalid credentials error message to be visible
+2024-05-21 13:57:31 [[32minfo[39m]: Error message visible: true
+2024-05-21 13:57:31 [[32minfo[39m]: Test case TC_Login_Negative_01 passed
+2024-05-21 13:57:32 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 13:57:32 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-21 13:57:32 [[32minfo[39m]: Clicking on the login button
+2024-05-21 13:57:33 [[32minfo[39m]: Entering email
+2024-05-21 13:57:33 [[32minfo[39m]: Entering password
+2024-05-21 13:57:33 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 13:57:34 [[32minfo[39m]: Waiting for empty email error message to be visible
+2024-05-21 13:58:01 [[31merror[39m]: Error during login: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('span[data-formik-error="true"]:has-text("Vul een geldig e-mailadres in, bijvoorbeeld test@plieger.nl")') to be visible[22m
+
+2024-05-21 13:58:01 [[31merror[39m]: Test case TC_Login_Negative_02 failed with error: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('span[data-formik-error="true"]:has-text("Vul een geldig e-mailadres in, bijvoorbeeld test@plieger.nl")') to be visible[22m
+
+2024-05-21 14:31:48 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 14:31:48 [[32minfo[39m]: Starting positive test case: TC_Login_Positive_01
+2024-05-21 14:31:48 [[32minfo[39m]: Clicking on the login button
+2024-05-21 14:31:51 [[32minfo[39m]: Entering email
+2024-05-21 14:31:51 [[32minfo[39m]: Entering password
+2024-05-21 14:31:51 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 14:31:51 [[32minfo[39m]: Form submitted
+2024-05-21 14:31:51 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-21 14:31:53 [[32minfo[39m]: Current URL: https://ecomstag.plieger.nl/account
+2024-05-21 14:31:53 [[32minfo[39m]: Test case TC_Login_Positive_01 passed
+2024-05-21 14:31:55 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 14:31:55 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_01
+2024-05-21 14:31:55 [[32minfo[39m]: Clicking on the login button
+2024-05-21 14:31:56 [[32minfo[39m]: Entering email
+2024-05-21 14:31:56 [[32minfo[39m]: Entering password
+2024-05-21 14:31:56 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 14:31:56 [[32minfo[39m]: Form submitted
+2024-05-21 14:31:56 [[32minfo[39m]: Waiting for invalid credentials error message to be visible
+2024-05-21 14:31:56 [[32minfo[39m]: Error message visible: true
+2024-05-21 14:31:56 [[32minfo[39m]: Test case TC_Login_Negative_01 passed
+2024-05-21 14:31:58 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 14:31:58 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-21 14:31:58 [[32minfo[39m]: Clicking on the login button
+2024-05-21 14:31:59 [[32minfo[39m]: Entering email
+2024-05-21 14:32:00 [[32minfo[39m]: Waiting for empty email error message to be visible
+2024-05-21 14:32:27 [[31merror[39m]: Error during login: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('span[data-formik-error="true"]:has-text("Vul een geldig e-mailadres in, bijvoorbeeld test@plieger.nl")') to be visible[22m
+
+2024-05-21 14:32:27 [[31merror[39m]: Test case TC_Login_Negative_02 failed with error: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('span[data-formik-error="true"]:has-text("Vul een geldig e-mailadres in, bijvoorbeeld test@plieger.nl")') to be visible[22m
+
+2024-05-21 14:33:42 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 14:33:42 [[32minfo[39m]: Starting positive test case: TC_Login_Positive_01
+2024-05-21 14:33:42 [[32minfo[39m]: Clicking on the login button
+2024-05-21 14:33:43 [[32minfo[39m]: Entering email
+2024-05-21 14:33:44 [[32minfo[39m]: Entering password
+2024-05-21 14:33:44 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 14:33:44 [[32minfo[39m]: Form submitted
+2024-05-21 14:33:44 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-21 14:33:46 [[32minfo[39m]: Current URL: https://ecomstag.plieger.nl/account
+2024-05-21 14:33:46 [[32minfo[39m]: Test case TC_Login_Positive_01 passed
+2024-05-21 14:33:48 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 14:33:48 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_01
+2024-05-21 14:33:48 [[32minfo[39m]: Clicking on the login button
+2024-05-21 14:33:49 [[32minfo[39m]: Entering email
+2024-05-21 14:33:50 [[32minfo[39m]: Entering password
+2024-05-21 14:33:50 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 14:33:50 [[32minfo[39m]: Form submitted
+2024-05-21 14:33:50 [[32minfo[39m]: Waiting for invalid credentials error message to be visible
+2024-05-21 14:33:50 [[32minfo[39m]: Error message visible: true
+2024-05-21 14:33:50 [[32minfo[39m]: Test case TC_Login_Negative_01 passed
+2024-05-21 14:33:51 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 14:33:52 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-21 14:33:52 [[32minfo[39m]: Clicking on the login button
+2024-05-21 14:33:52 [[32minfo[39m]: Entering email
+2024-05-21 14:33:52 [[32minfo[39m]: Waiting for empty email error message to be visible
+2024-05-21 14:34:20 [[31merror[39m]: Error during login: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('span.form_element__error:has-text("Vul een geldig e-mailadres in, bijvoorbeeld test@plieger.nl")') to be visible[22m
+
+2024-05-21 14:34:20 [[31merror[39m]: Test case TC_Login_Negative_02 failed with error: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('span.form_element__error:has-text("Vul een geldig e-mailadres in, bijvoorbeeld test@plieger.nl")') to be visible[22m
+
+2024-05-21 14:45:13 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 14:45:13 [[32minfo[39m]: Starting positive test case: TC_Login_Positive_01
+2024-05-21 14:45:13 [[32minfo[39m]: Clicking on the login button
+2024-05-21 14:45:14 [[32minfo[39m]: Entering email
+2024-05-21 14:45:15 [[32minfo[39m]: Entering password
+2024-05-21 14:45:15 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 14:45:15 [[32minfo[39m]: Form submitted
+2024-05-21 14:45:15 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-21 14:45:16 [[32minfo[39m]: Current URL: https://ecomstag.plieger.nl/account
+2024-05-21 14:45:16 [[32minfo[39m]: Test case TC_Login_Positive_01 passed
+2024-05-21 14:45:18 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 14:45:18 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_01
+2024-05-21 14:45:18 [[32minfo[39m]: Clicking on the login button
+2024-05-21 14:45:19 [[32minfo[39m]: Entering email
+2024-05-21 14:45:19 [[32minfo[39m]: Entering password
+2024-05-21 14:45:19 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 14:45:19 [[32minfo[39m]: Form submitted
+2024-05-21 14:45:19 [[32minfo[39m]: Waiting for invalid credentials error message to be visible
+2024-05-21 14:45:19 [[32minfo[39m]: Error message visible: true
+2024-05-21 14:45:19 [[32minfo[39m]: Test case TC_Login_Negative_01 passed
+2024-05-21 14:45:20 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 14:45:20 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-21 14:45:20 [[32minfo[39m]: Clicking on the login button
+2024-05-21 14:45:21 [[32minfo[39m]: Entering email
+2024-05-21 14:45:21 [[32minfo[39m]: Waiting for empty email error message to be visible
+2024-05-21 14:45:50 [[31merror[39m]: Error during login: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('span.form_element__error:has-text("Vul een geldig e-mailadres in, bijvoorbeeld test@plieger.nl")') to be visible[22m
+
+2024-05-21 14:45:50 [[31merror[39m]: Test case TC_Login_Negative_02 failed with error: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('span.form_element__error:has-text("Vul een geldig e-mailadres in, bijvoorbeeld test@plieger.nl")') to be visible[22m
+
+2024-05-21 14:48:40 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 14:48:40 [[32minfo[39m]: Starting positive test case: TC_Login_Positive_01
+2024-05-21 14:48:40 [[32minfo[39m]: Clicking on the login button
+2024-05-21 14:48:42 [[32minfo[39m]: Entering email
+2024-05-21 14:48:42 [[32minfo[39m]: Entering password
+2024-05-21 14:48:42 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 14:48:42 [[32minfo[39m]: Form submitted
+2024-05-21 14:48:42 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-21 14:48:44 [[32minfo[39m]: Current URL: https://ecomstag.plieger.nl/account
+2024-05-21 14:48:44 [[32minfo[39m]: Test case TC_Login_Positive_01 passed
+2024-05-21 14:48:46 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 14:48:46 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_01
+2024-05-21 14:48:46 [[32minfo[39m]: Clicking on the login button
+2024-05-21 14:48:47 [[32minfo[39m]: Entering email
+2024-05-21 14:48:47 [[32minfo[39m]: Entering password
+2024-05-21 14:48:47 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 14:48:47 [[32minfo[39m]: Form submitted
+2024-05-21 14:48:47 [[32minfo[39m]: Waiting for invalid credentials error message to be visible
+2024-05-21 14:48:47 [[32minfo[39m]: Error message visible: true
+2024-05-21 14:48:47 [[32minfo[39m]: Test case TC_Login_Negative_01 passed
+2024-05-21 14:48:49 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 14:48:49 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-21 14:48:49 [[32minfo[39m]: Clicking on the login button
+2024-05-21 14:48:49 [[32minfo[39m]: Entering email
+2024-05-21 14:48:50 [[32minfo[39m]: Waiting for empty email error message to be visible
+2024-05-21 14:49:18 [[31merror[39m]: Error during login: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('span.form_element__error:has-text("Vul een geldig e-mailadres in, bijvoorbeeld test@plieger.nl")') to be visible[22m
+
+2024-05-21 14:49:18 [[31merror[39m]: Test case TC_Login_Negative_02 failed with error: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('span.form_element__error:has-text("Vul een geldig e-mailadres in, bijvoorbeeld test@plieger.nl")') to be visible[22m
+
+2024-05-21 14:50:24 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 14:50:24 [[32minfo[39m]: Starting positive test case: TC_Login_Positive_01
+2024-05-21 14:50:24 [[32minfo[39m]: Clicking on the login button
+2024-05-21 14:50:25 [[32minfo[39m]: Entering email
+2024-05-21 14:50:25 [[32minfo[39m]: Entering password
+2024-05-21 14:50:25 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 14:50:26 [[32minfo[39m]: Form submitted
+2024-05-21 14:50:26 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-21 14:50:28 [[32minfo[39m]: Current URL: https://ecomstag.plieger.nl/account
+2024-05-21 14:50:28 [[32minfo[39m]: Test case TC_Login_Positive_01 passed
+2024-05-21 14:50:29 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 14:50:29 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_01
+2024-05-21 14:50:29 [[32minfo[39m]: Clicking on the login button
+2024-05-21 14:50:30 [[32minfo[39m]: Entering email
+2024-05-21 14:50:30 [[32minfo[39m]: Entering password
+2024-05-21 14:50:30 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 14:50:30 [[32minfo[39m]: Form submitted
+2024-05-21 14:50:30 [[32minfo[39m]: Waiting for invalid credentials error message to be visible
+2024-05-21 14:50:31 [[32minfo[39m]: Error message visible: true
+2024-05-21 14:50:31 [[32minfo[39m]: Test case TC_Login_Negative_01 passed
+2024-05-21 14:50:32 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 14:50:32 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-21 14:50:32 [[32minfo[39m]: Clicking on the login button
+2024-05-21 14:50:33 [[32minfo[39m]: Entering email
+2024-05-21 14:50:33 [[32minfo[39m]: Entering password
+2024-05-21 14:50:33 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 14:50:33 [[32minfo[39m]: Form submitted
+2024-05-21 14:50:33 [[32minfo[39m]: Waiting for invalid credentials error message to be visible
+2024-05-21 14:51:01 [[31merror[39m]: Error during login: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('.inline-notification__content b:has-text("Combinatie e-mail en wachtwoord onjuist")') to be visible[22m
+
+2024-05-21 14:51:01 [[31merror[39m]: Test case TC_Login_Negative_02 failed with error: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('.inline-notification__content b:has-text("Combinatie e-mail en wachtwoord onjuist")') to be visible[22m
+
+2024-05-21 14:52:00 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 14:52:00 [[32minfo[39m]: Starting positive test case: TC_Login_Positive_01
+2024-05-21 14:52:00 [[32minfo[39m]: Clicking on the login button
+2024-05-21 14:52:02 [[32minfo[39m]: Entering email
+2024-05-21 14:52:02 [[32minfo[39m]: Entering password
+2024-05-21 14:52:02 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 14:52:02 [[32minfo[39m]: Form submitted
+2024-05-21 14:52:02 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-21 14:52:04 [[32minfo[39m]: Current URL: https://ecomstag.plieger.nl/account
+2024-05-21 14:52:04 [[32minfo[39m]: Test case TC_Login_Positive_01 passed
+2024-05-21 14:52:06 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 14:52:06 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_01
+2024-05-21 14:52:06 [[32minfo[39m]: Clicking on the login button
+2024-05-21 14:52:06 [[32minfo[39m]: Entering email
+2024-05-21 14:52:08 [[32minfo[39m]: Entering password
+2024-05-21 14:52:08 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 14:52:08 [[32minfo[39m]: Form submitted
+2024-05-21 14:52:08 [[32minfo[39m]: Waiting for invalid credentials error message to be visible
+2024-05-21 14:52:08 [[32minfo[39m]: Error message visible: true
+2024-05-21 14:52:08 [[32minfo[39m]: Test case TC_Login_Negative_01 passed
+2024-05-21 14:52:10 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 14:52:10 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-21 14:52:10 [[32minfo[39m]: Clicking on the login button
+2024-05-21 14:52:10 [[32minfo[39m]: Entering email
+2024-05-21 14:52:10 [[32minfo[39m]: Entering password
+2024-05-21 14:52:10 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 14:52:10 [[32minfo[39m]: Form submitted
+2024-05-21 14:52:10 [[32minfo[39m]: Waiting for invalid credentials error message to be visible
+2024-05-21 14:52:39 [[31merror[39m]: Error during login: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('.inline-notification__content b:has-text("Combinatie e-mail en wachtwoord onjuist")') to be visible[22m
+
+2024-05-21 14:52:39 [[31merror[39m]: Test case TC_Login_Negative_02 failed with error: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('.inline-notification__content b:has-text("Combinatie e-mail en wachtwoord onjuist")') to be visible[22m
+
+2024-05-21 14:54:59 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 14:54:59 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-21 14:54:59 [[32minfo[39m]: Clicking on the login button
+2024-05-21 14:55:00 [[32minfo[39m]: Entering email
+2024-05-21 14:55:00 [[32minfo[39m]: Entering password
+2024-05-21 14:55:00 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 14:55:00 [[32minfo[39m]: Form submitted
+2024-05-21 14:55:00 [[32minfo[39m]: Waiting for invalid credentials error message to be visible
+2024-05-21 14:55:28 [[31merror[39m]: Error during login: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('.inline-notification__content b:has-text("Combinatie e-mail en wachtwoord onjuist")') to be visible[22m
+
+2024-05-21 14:55:28 [[31merror[39m]: Test case TC_Login_Negative_02 failed with error: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('.inline-notification__content b:has-text("Combinatie e-mail en wachtwoord onjuist")') to be visible[22m
+
+2024-05-21 14:59:58 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 14:59:58 [[32minfo[39m]: Starting positive test case: TC_Login_Positive_01
+2024-05-21 14:59:58 [[32minfo[39m]: Clicking on the login button
+2024-05-21 14:59:59 [[32minfo[39m]: Entering email
+2024-05-21 14:59:59 [[32minfo[39m]: Entering password
+2024-05-21 14:59:59 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 14:59:59 [[32minfo[39m]: Form submitted
+2024-05-21 14:59:59 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-21 15:00:01 [[32minfo[39m]: Current URL: https://ecomstag.plieger.nl/account
+2024-05-21 15:00:01 [[32minfo[39m]: Test case TC_Login_Positive_01 passed
+2024-05-21 15:00:03 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 15:00:03 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_01
+2024-05-21 15:00:03 [[32minfo[39m]: Clicking on the login button
+2024-05-21 15:00:04 [[32minfo[39m]: Entering email
+2024-05-21 15:00:05 [[32minfo[39m]: Entering password
+2024-05-21 15:00:05 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 15:00:05 [[32minfo[39m]: Form submitted
+2024-05-21 15:00:05 [[32minfo[39m]: Waiting for invalid credentials error message to be visible
+2024-05-21 15:00:05 [[32minfo[39m]: Error message visible: true
+2024-05-21 15:00:05 [[32minfo[39m]: Test case TC_Login_Negative_01 passed
+2024-05-21 15:00:07 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 15:00:07 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-21 15:00:07 [[32minfo[39m]: Clicking on the login button
+2024-05-21 15:00:08 [[32minfo[39m]: Entering email
+2024-05-21 15:00:08 [[32minfo[39m]: Waiting for empty email error message to be visible
+2024-05-21 15:00:16 [[31merror[39m]: Error during login: locator.textContent: Target page, context or browser has been closed
+Call log:
+  [2m- waiting for locator('span.form_element__error:has-text("Vul een geldig e-mailadres in, bijvoorbeeld test@plieger.nl")')[22m
+
+2024-05-21 15:00:16 [[31merror[39m]: Test case TC_Login_Negative_02 failed with error: locator.textContent: Target page, context or browser has been closed
+Call log:
+  [2m- waiting for locator('span.form_element__error:has-text("Vul een geldig e-mailadres in, bijvoorbeeld test@plieger.nl")')[22m
+
+2024-05-21 15:00:42 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 15:00:42 [[32minfo[39m]: Starting positive test case: TC_Login_Positive_01
+2024-05-21 15:00:42 [[32minfo[39m]: Clicking on the login button
+2024-05-21 15:00:43 [[32minfo[39m]: Entering email
+2024-05-21 15:00:44 [[32minfo[39m]: Entering password
+2024-05-21 15:00:44 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 15:00:44 [[32minfo[39m]: Form submitted
+2024-05-21 15:00:44 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-21 15:00:46 [[32minfo[39m]: Current URL: https://ecomstag.plieger.nl/account
+2024-05-21 15:00:46 [[32minfo[39m]: Test case TC_Login_Positive_01 passed
+2024-05-21 15:00:47 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 15:00:48 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_01
+2024-05-21 15:00:48 [[32minfo[39m]: Clicking on the login button
+2024-05-21 15:00:49 [[32minfo[39m]: Entering email
+2024-05-21 15:00:49 [[32minfo[39m]: Entering password
+2024-05-21 15:00:49 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 15:00:49 [[32minfo[39m]: Form submitted
+2024-05-21 15:00:49 [[32minfo[39m]: Waiting for invalid credentials error message to be visible
+2024-05-21 15:00:49 [[32minfo[39m]: Error message visible: true
+2024-05-21 15:00:49 [[32minfo[39m]: Test case TC_Login_Negative_01 passed
+2024-05-21 15:00:51 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 15:00:51 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-21 15:00:51 [[32minfo[39m]: Clicking on the login button
+2024-05-21 15:00:51 [[32minfo[39m]: Entering email
+2024-05-21 15:00:52 [[32minfo[39m]: Entering password
+2024-05-21 15:00:52 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 15:00:52 [[32minfo[39m]: Form submitted
+2024-05-21 15:00:52 [[32minfo[39m]: Waiting for invalid credentials error message to be visible
+2024-05-21 15:01:20 [[31merror[39m]: Error during login: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('.inline-notification__content b:has-text("Combinatie e-mail en wachtwoord onjuist")') to be visible[22m
+
+2024-05-21 15:01:20 [[31merror[39m]: Test case TC_Login_Negative_02 failed with error: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('.inline-notification__content b:has-text("Combinatie e-mail en wachtwoord onjuist")') to be visible[22m
+
+2024-05-21 15:07:11 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 15:07:11 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-21 15:07:11 [[32minfo[39m]: Clicking on the login button
+2024-05-21 15:07:12 [[32minfo[39m]: Entering email
+2024-05-21 15:07:12 [[32minfo[39m]: Entering password
+2024-05-21 15:07:12 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 15:07:12 [[32minfo[39m]: Form submitted
+2024-05-21 15:07:12 [[32minfo[39m]: Waiting for invalid credentials error message to be visible
+2024-05-21 15:07:20 [[31merror[39m]: Error during login: locator.waitFor: Target page, context or browser has been closed
+Call log:
+  [2m- waiting for locator('.inline-notification__content b:has-text("Combinatie e-mail en wachtwoord onjuist")') to be visible[22m
+
+2024-05-21 15:07:20 [[31merror[39m]: Test case TC_Login_Negative_02 failed with error: locator.waitFor: Target page, context or browser has been closed
+Call log:
+  [2m- waiting for locator('.inline-notification__content b:has-text("Combinatie e-mail en wachtwoord onjuist")') to be visible[22m
+
+2024-05-21 15:07:56 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 15:07:56 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-21 15:07:56 [[32minfo[39m]: Clicking on the login button
+2024-05-21 15:07:57 [[32minfo[39m]: Entering email
+2024-05-21 15:07:57 [[32minfo[39m]: Waiting for empty email error message to be visible
+2024-05-21 15:08:25 [[31merror[39m]: Error during login: locator.textContent: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('span.form_element__error:has-text("Vul een geldig wachtwoord in")')[22m
+
+2024-05-21 15:08:25 [[31merror[39m]: Test case TC_Login_Negative_02 failed with error: locator.textContent: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('span.form_element__error:has-text("Vul een geldig wachtwoord in")')[22m
+
+2024-05-21 15:15:16 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 15:15:16 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-21 15:15:16 [[32minfo[39m]: Clicking on the login button
+2024-05-21 15:15:17 [[32minfo[39m]: Entering email
+2024-05-21 15:15:17 [[32minfo[39m]: Entering password
+2024-05-21 15:15:17 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 15:15:17 [[32minfo[39m]: Form submitted
+2024-05-21 15:15:17 [[32minfo[39m]: Error message: Vul je e-mailadres in
+2024-05-21 15:15:17 [[32minfo[39m]: Error message visible: true
+2024-05-21 15:15:18 [[31merror[39m]: Test case TC_Login_Negative_02 failed with error: homePage.getErrorMessage is not a function
+2024-05-21 15:18:45 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 15:18:45 [[32minfo[39m]: Starting positive test case: TC_Login_Positive_01
+2024-05-21 15:18:45 [[32minfo[39m]: Clicking on the login button
+2024-05-21 15:18:47 [[32minfo[39m]: Entering email
+2024-05-21 15:18:47 [[32minfo[39m]: Entering password
+2024-05-21 15:18:47 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 15:18:47 [[32minfo[39m]: Form submitted
+2024-05-21 15:19:14 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-21 15:19:14 [[31merror[39m]: Error during login: locator.waitFor: Target page, context or browser has been closed
+2024-05-21 15:19:14 [[31merror[39m]: Test case TC_Login_Positive_01 failed with error: locator.waitFor: Target page, context or browser has been closed
+2024-05-21 15:19:20 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 15:19:20 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_01
+2024-05-21 15:19:20 [[32minfo[39m]: Clicking on the login button
+2024-05-21 15:19:21 [[32minfo[39m]: Entering email
+2024-05-21 15:19:21 [[32minfo[39m]: Entering password
+2024-05-21 15:19:21 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 15:19:21 [[32minfo[39m]: Form submitted
+2024-05-21 15:19:46 [[32minfo[39m]: Waiting for invalid credentials error message to be visible
+2024-05-21 15:19:46 [[31merror[39m]: Error during login: locator.waitFor: Target page, context or browser has been closed
+2024-05-21 15:19:46 [[31merror[39m]: Test case TC_Login_Negative_01 failed with error: locator.waitFor: Target page, context or browser has been closed
+2024-05-21 15:19:52 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 15:19:52 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-21 15:19:52 [[32minfo[39m]: Clicking on the login button
+2024-05-21 15:19:52 [[32minfo[39m]: Entering email
+2024-05-21 15:19:53 [[32minfo[39m]: Entering password
+2024-05-21 15:19:53 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 15:19:53 [[32minfo[39m]: Form submitted
+2024-05-21 15:19:53 [[32minfo[39m]: Error message: Vul je e-mailadres in
+2024-05-21 15:19:53 [[32minfo[39m]: Error message visible: true
+2024-05-21 15:19:53 [[32minfo[39m]: Error message: Vul je e-mailadres in
+2024-05-21 15:19:53 [[32minfo[39m]: Test case TC_Login_Negative_02 passed
+2024-05-21 15:20:28 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 15:20:28 [[32minfo[39m]: Starting positive test case: TC_Login_Positive_01
+2024-05-21 15:20:28 [[32minfo[39m]: Clicking on the login button
+2024-05-21 15:20:30 [[32minfo[39m]: Entering email
+2024-05-21 15:20:30 [[32minfo[39m]: Entering password
+2024-05-21 15:20:30 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 15:20:30 [[32minfo[39m]: Form submitted
+2024-05-21 15:20:57 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-21 15:20:57 [[31merror[39m]: Error during login: locator.waitFor: Target page, context or browser has been closed
+2024-05-21 15:20:57 [[31merror[39m]: Test case TC_Login_Positive_01 failed with error: locator.waitFor: Target page, context or browser has been closed
+2024-05-21 15:21:02 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 15:21:02 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_01
+2024-05-21 15:21:02 [[32minfo[39m]: Clicking on the login button
+2024-05-21 15:21:02 [[32minfo[39m]: Entering email
+2024-05-21 15:21:03 [[32minfo[39m]: Entering password
+2024-05-21 15:21:03 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 15:21:03 [[32minfo[39m]: Form submitted
+2024-05-21 15:21:31 [[32minfo[39m]: Waiting for invalid credentials error message to be visible
+2024-05-21 15:21:31 [[31merror[39m]: Error during login: locator.waitFor: Target page, context or browser has been closed
+2024-05-21 15:21:31 [[31merror[39m]: Test case TC_Login_Negative_01 failed with error: locator.waitFor: Target page, context or browser has been closed
+2024-05-21 15:21:36 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 15:21:36 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-21 15:21:36 [[32minfo[39m]: Clicking on the login button
+2024-05-21 15:21:37 [[32minfo[39m]: Entering email
+2024-05-21 15:21:37 [[32minfo[39m]: Entering password
+2024-05-21 15:21:37 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 15:21:37 [[32minfo[39m]: Form submitted
+2024-05-21 15:21:37 [[32minfo[39m]: Error message: Vul je e-mailadres in
+2024-05-21 15:21:37 [[32minfo[39m]: Error message visible: true
+2024-05-21 15:21:37 [[32minfo[39m]: Error message: Vul je e-mailadres in
+2024-05-21 15:21:37 [[32minfo[39m]: Test case TC_Login_Negative_02 passed
+2024-05-21 15:23:11 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 15:23:11 [[32minfo[39m]: Starting positive test case: TC_Login_Positive_01
+2024-05-21 15:23:11 [[32minfo[39m]: Clicking on the login button
+2024-05-21 15:23:12 [[32minfo[39m]: Entering email
+2024-05-21 15:23:12 [[32minfo[39m]: Entering password
+2024-05-21 15:23:12 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 15:23:13 [[32minfo[39m]: Form submitted
+2024-05-21 15:23:41 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-21 15:23:41 [[31merror[39m]: Error during login: locator.waitFor: Target page, context or browser has been closed
+2024-05-21 15:23:41 [[31merror[39m]: Test case TC_Login_Positive_01 failed with error: locator.waitFor: Target page, context or browser has been closed
+2024-05-21 15:23:45 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 15:23:45 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_01
+2024-05-21 15:23:45 [[32minfo[39m]: Clicking on the login button
+2024-05-21 15:23:46 [[32minfo[39m]: Entering email
+2024-05-21 15:23:47 [[32minfo[39m]: Entering password
+2024-05-21 15:23:47 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 15:23:47 [[32minfo[39m]: Form submitted
+2024-05-21 15:24:14 [[32minfo[39m]: Waiting for invalid credentials error message to be visible
+2024-05-21 15:24:14 [[31merror[39m]: Error during login: locator.waitFor: Target page, context or browser has been closed
+2024-05-21 15:24:14 [[31merror[39m]: Test case TC_Login_Negative_01 failed with error: locator.waitFor: Target page, context or browser has been closed
+2024-05-21 15:24:19 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 15:24:20 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-21 15:24:20 [[32minfo[39m]: Clicking on the login button
+2024-05-21 15:24:20 [[32minfo[39m]: Entering email
+2024-05-21 15:24:21 [[32minfo[39m]: Entering password
+2024-05-21 15:24:21 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 15:24:21 [[32minfo[39m]: Form submitted
+2024-05-21 15:24:21 [[32minfo[39m]: Error message: Vul je e-mailadres in
+2024-05-21 15:24:21 [[32minfo[39m]: Error message visible: true
+2024-05-21 15:24:21 [[32minfo[39m]: Error message: Vul je e-mailadres in
+2024-05-21 15:24:21 [[32minfo[39m]: Test case TC_Login_Negative_02 passed
+2024-05-21 15:26:25 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 15:26:25 [[32minfo[39m]: Starting positive test case: TC_Login_Positive_01
+2024-05-21 15:26:25 [[32minfo[39m]: Clicking on the login button
+2024-05-21 15:26:26 [[32minfo[39m]: Entering email
+2024-05-21 15:26:27 [[32minfo[39m]: Entering password
+2024-05-21 15:26:27 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 15:26:27 [[32minfo[39m]: Form submitted
+2024-05-21 15:26:54 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-21 15:26:54 [[31merror[39m]: Error during login: locator.waitFor: Target page, context or browser has been closed
+2024-05-21 15:26:54 [[31merror[39m]: Test case TC_Login_Positive_01 failed with error: locator.waitFor: Target page, context or browser has been closed
+2024-05-21 15:26:59 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 15:26:59 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_01
+2024-05-21 15:26:59 [[32minfo[39m]: Clicking on the login button
+2024-05-21 15:27:00 [[32minfo[39m]: Entering email
+2024-05-21 15:27:00 [[32minfo[39m]: Entering password
+2024-05-21 15:27:00 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 15:27:00 [[32minfo[39m]: Form submitted
+2024-05-21 15:27:28 [[32minfo[39m]: Waiting for invalid credentials error message to be visible
+2024-05-21 15:27:28 [[31merror[39m]: Error during login: locator.waitFor: Target page, context or browser has been closed
+2024-05-21 15:27:28 [[31merror[39m]: Test case TC_Login_Negative_01 failed with error: locator.waitFor: Target page, context or browser has been closed
+2024-05-21 15:27:32 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 15:27:32 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-21 15:27:32 [[32minfo[39m]: Clicking on the login button
+2024-05-21 15:27:33 [[32minfo[39m]: Entering email
+2024-05-21 15:27:34 [[32minfo[39m]: Entering password
+2024-05-21 15:27:34 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 15:27:34 [[32minfo[39m]: Form submitted
+2024-05-21 15:27:34 [[32minfo[39m]: Error message: Vul je e-mailadres in
+2024-05-21 15:27:34 [[32minfo[39m]: Error message visible: true
+2024-05-21 15:27:34 [[32minfo[39m]: Error message: Vul je e-mailadres in
+2024-05-21 15:27:34 [[32minfo[39m]: Test case TC_Login_Negative_02 passed
+2024-05-21 15:28:19 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 15:28:19 [[32minfo[39m]: Starting positive test case: TC_Login_Positive_01
+2024-05-21 15:28:19 [[32minfo[39m]: Clicking on the login button
+2024-05-21 15:28:20 [[32minfo[39m]: Entering email
+2024-05-21 15:28:20 [[32minfo[39m]: Entering password
+2024-05-21 15:28:20 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 15:28:20 [[32minfo[39m]: Form submitted
+2024-05-21 15:28:48 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-21 15:28:48 [[31merror[39m]: Error during login: locator.waitFor: Target page, context or browser has been closed
+2024-05-21 15:28:48 [[31merror[39m]: Test case TC_Login_Positive_01 failed with error: locator.waitFor: Target page, context or browser has been closed
+2024-05-21 15:28:53 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 15:28:53 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_01
+2024-05-21 15:28:53 [[32minfo[39m]: Clicking on the login button
+2024-05-21 15:28:53 [[32minfo[39m]: Entering email
+2024-05-21 15:28:54 [[32minfo[39m]: Entering password
+2024-05-21 15:28:54 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 15:28:54 [[32minfo[39m]: Form submitted
+2024-05-21 15:29:22 [[32minfo[39m]: Waiting for invalid credentials error message to be visible
+2024-05-21 15:29:22 [[31merror[39m]: Error during login: locator.waitFor: Target page, context or browser has been closed
+2024-05-21 15:29:22 [[31merror[39m]: Test case TC_Login_Negative_01 failed with error: locator.waitFor: Target page, context or browser has been closed
+2024-05-21 15:29:27 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 15:29:27 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-21 15:29:27 [[32minfo[39m]: Clicking on the login button
+2024-05-21 15:29:28 [[32minfo[39m]: Entering email
+2024-05-21 15:29:29 [[32minfo[39m]: Entering password
+2024-05-21 15:29:29 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 15:29:29 [[32minfo[39m]: Form submitted
+2024-05-21 15:29:29 [[32minfo[39m]: Error message: Vul je e-mailadres in
+2024-05-21 15:29:29 [[32minfo[39m]: Error message visible: true
+2024-05-21 15:29:29 [[32minfo[39m]: Error message: Vul je e-mailadres in
+2024-05-21 15:29:29 [[32minfo[39m]: Test case TC_Login_Negative_02 passed
+2024-05-21 20:13:51 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 20:13:51 [[32minfo[39m]: Starting positive test case: TC_Login_Positive_01
+2024-05-21 20:13:51 [[32minfo[39m]: Clicking on the login button
+2024-05-21 20:14:01 [[32minfo[39m]: Entering email
+2024-05-21 20:14:02 [[32minfo[39m]: Entering password
+2024-05-21 20:14:02 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 20:14:02 [[32minfo[39m]: Form submitted
+2024-05-21 20:14:21 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-21 20:14:21 [[31merror[39m]: Profile icon did not become visible in time or page was closed
+2024-05-21 20:14:21 [[31merror[39m]: Error during login: locator.waitFor: Target page, context or browser has been closed
+2024-05-21 20:14:21 [[31merror[39m]: Test case TC_Login_Positive_01 failed with error: locator.waitFor: Target page, context or browser has been closed
+2024-05-21 20:14:25 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 20:14:25 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_01
+2024-05-21 20:14:25 [[32minfo[39m]: Clicking on the login button
+2024-05-21 20:14:34 [[32minfo[39m]: Entering email
+2024-05-21 20:14:35 [[32minfo[39m]: Entering password
+2024-05-21 20:14:35 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 20:14:35 [[32minfo[39m]: Form submitted
+2024-05-21 20:14:54 [[32minfo[39m]: Waiting for invalid credentials error message to be visible
+2024-05-21 20:14:54 [[31merror[39m]: Invalid credentials error message did not become visible in time or page was closed
+2024-05-21 20:14:54 [[31merror[39m]: Error during login: locator.waitFor: Target page, context or browser has been closed
+2024-05-21 20:14:54 [[31merror[39m]: Test case TC_Login_Negative_01 failed with error: locator.waitFor: Target page, context or browser has been closed
+2024-05-21 20:14:57 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 20:14:57 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-21 20:14:57 [[32minfo[39m]: Clicking on the login button
+2024-05-21 20:15:00 [[32minfo[39m]: Entering email
+2024-05-21 20:15:00 [[32minfo[39m]: Entering password
+2024-05-21 20:15:00 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 20:15:00 [[32minfo[39m]: Form submitted
+2024-05-21 20:15:00 [[32minfo[39m]: Error message: Vul je e-mailadres in
+2024-05-21 20:15:00 [[32minfo[39m]: Error message visible: true
+2024-05-21 20:15:00 [[32minfo[39m]: Error message: Vul je e-mailadres in
+2024-05-21 20:15:00 [[32minfo[39m]: Test case TC_Login_Negative_02 passed
+2024-05-21 20:15:36 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 20:15:36 [[32minfo[39m]: Starting positive test case: TC_Login_Positive_01
+2024-05-21 20:15:36 [[32minfo[39m]: Clicking on the login button
+2024-05-21 20:15:37 [[32minfo[39m]: Entering email
+2024-05-21 20:15:37 [[32minfo[39m]: Entering password
+2024-05-21 20:15:37 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 20:15:37 [[32minfo[39m]: Form submitted
+2024-05-21 20:16:05 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-21 20:16:05 [[31merror[39m]: Profile icon did not become visible in time or page was closed
+2024-05-21 20:16:05 [[31merror[39m]: Error during login: locator.waitFor: Target page, context or browser has been closed
+2024-05-21 20:16:05 [[31merror[39m]: Test case TC_Login_Positive_01 failed with error: locator.waitFor: Target page, context or browser has been closed
+2024-05-21 20:16:10 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 20:16:10 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_01
+2024-05-21 20:16:10 [[32minfo[39m]: Clicking on the login button
+2024-05-21 20:16:11 [[32minfo[39m]: Entering email
+2024-05-21 20:16:11 [[32minfo[39m]: Entering password
+2024-05-21 20:16:11 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 20:16:11 [[32minfo[39m]: Form submitted
+2024-05-21 20:16:39 [[32minfo[39m]: Waiting for invalid credentials error message to be visible
+2024-05-21 20:16:39 [[31merror[39m]: Invalid credentials error message did not become visible in time or page was closed
+2024-05-21 20:16:39 [[31merror[39m]: Error during login: locator.waitFor: Target page, context or browser has been closed
+2024-05-21 20:16:39 [[31merror[39m]: Test case TC_Login_Negative_01 failed with error: locator.waitFor: Target page, context or browser has been closed
+2024-05-21 20:16:44 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 20:16:44 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-21 20:16:44 [[32minfo[39m]: Clicking on the login button
+2024-05-21 20:16:45 [[32minfo[39m]: Entering email
+2024-05-21 20:16:45 [[32minfo[39m]: Entering password
+2024-05-21 20:16:45 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 20:16:45 [[32minfo[39m]: Form submitted
+2024-05-21 20:16:45 [[32minfo[39m]: Error message: Vul je e-mailadres in
+2024-05-21 20:16:45 [[32minfo[39m]: Error message visible: true
+2024-05-21 20:16:45 [[32minfo[39m]: Error message: Vul je e-mailadres in
+2024-05-21 20:16:45 [[32minfo[39m]: Test case TC_Login_Negative_02 passed
+2024-05-21 20:31:47 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 20:31:47 [[32minfo[39m]: Starting positive test case: TC_Login_Positive_01
+2024-05-21 20:31:47 [[32minfo[39m]: Clicking on the login button
+2024-05-21 20:31:48 [[32minfo[39m]: Entering email
+2024-05-21 20:31:49 [[32minfo[39m]: Entering password
+2024-05-21 20:31:49 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 20:31:49 [[32minfo[39m]: Form submitted
+2024-05-21 20:32:16 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-21 20:32:16 [[31merror[39m]: Profile icon did not become visible in time or page was closed
+2024-05-21 20:32:16 [[31merror[39m]: Page was closed unexpectedly
+2024-05-21 20:32:16 [[31merror[39m]: Error during login: locator.waitFor: Target page, context or browser has been closed
+2024-05-21 20:32:16 [[31merror[39m]: Test case TC_Login_Positive_01 failed with error: locator.waitFor: Target page, context or browser has been closed
+2024-05-21 20:32:21 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 20:32:21 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_01
+2024-05-21 20:32:21 [[32minfo[39m]: Clicking on the login button
+2024-05-21 20:32:22 [[32minfo[39m]: Entering email
+2024-05-21 20:32:22 [[32minfo[39m]: Entering password
+2024-05-21 20:32:22 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 20:32:22 [[32minfo[39m]: Form submitted
+2024-05-21 20:32:50 [[32minfo[39m]: Waiting for invalid credentials error message to be visible
+2024-05-21 20:32:50 [[31merror[39m]: Invalid credentials error message did not become visible in time or page was closed
+2024-05-21 20:32:50 [[31merror[39m]: Page was closed unexpectedly
+2024-05-21 20:32:50 [[31merror[39m]: Error during login: locator.waitFor: Target page, context or browser has been closed
+2024-05-21 20:32:50 [[31merror[39m]: Test case TC_Login_Negative_01 failed with error: locator.waitFor: Target page, context or browser has been closed
+2024-05-21 20:32:55 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-21 20:32:55 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-21 20:32:55 [[32minfo[39m]: Clicking on the login button
+2024-05-21 20:32:56 [[32minfo[39m]: Entering email
+2024-05-21 20:32:56 [[32minfo[39m]: Entering password
+2024-05-21 20:32:56 [[32minfo[39m]: Clicking the login submit button
+2024-05-21 20:32:56 [[32minfo[39m]: Form submitted
+2024-05-21 20:32:56 [[32minfo[39m]: Error message: Vul je e-mailadres in
+2024-05-21 20:32:56 [[32minfo[39m]: Error message visible: true
+2024-05-21 20:32:56 [[31merror[39m]: Test case TC_Login_Negative_02 failed with error: homePage.getErrorMessage is not a function
+2024-05-22 11:57:35 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 11:57:35 [[32minfo[39m]: Starting positive test case: TC_Login_Positive_01
+2024-05-22 11:57:35 [[32minfo[39m]: Clicking on the login button
+2024-05-22 11:57:36 [[32minfo[39m]: Entering email
+2024-05-22 11:57:37 [[32minfo[39m]: Entering password
+2024-05-22 11:57:37 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 11:57:37 [[32minfo[39m]: Form submitted
+2024-05-22 11:57:37 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-22 11:57:39 [[32minfo[39m]: Expected: true, Actual: undefined
+2024-05-22 11:57:39 [[31merror[39m]: Test case TC_Login_Positive_01 failed with error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mundefined[39m
+2024-05-22 11:57:41 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 11:57:41 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_01
+2024-05-22 11:57:41 [[32minfo[39m]: Clicking on the login button
+2024-05-22 11:57:41 [[32minfo[39m]: Entering email
+2024-05-22 11:57:42 [[32minfo[39m]: Entering password
+2024-05-22 11:57:42 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 11:57:42 [[32minfo[39m]: Form submitted
+2024-05-22 11:57:42 [[32minfo[39m]: Waiting for invalid credentials error message to be visible
+2024-05-22 11:57:42 [[32minfo[39m]: Expected: true, Actual: undefined
+2024-05-22 11:57:42 [[31merror[39m]: Test case TC_Login_Negative_01 failed with error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mundefined[39m
+2024-05-22 11:57:44 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 11:57:44 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-22 11:57:44 [[32minfo[39m]: Clicking on the login button
+2024-05-22 11:57:44 [[32minfo[39m]: Entering email
+2024-05-22 11:57:45 [[32minfo[39m]: Entering password
+2024-05-22 11:57:45 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 11:57:45 [[32minfo[39m]: Form submitted
+2024-05-22 11:57:45 [[32minfo[39m]: Waiting for empty email error message to be visible
+2024-05-22 11:58:13 [[31merror[39m]: Test case TC_Login_Negative_02 failed with error: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('span.form_element__error:has-text("Vul een geldig e-mailadres in, bijvoorbeeld test@plieger.nl")') to be visible[22m
+
+2024-05-22 12:02:53 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 12:02:53 [[32minfo[39m]: Starting positive test case: TC_Login_Positive_01
+2024-05-22 12:02:53 [[32minfo[39m]: Clicking on the login button
+2024-05-22 12:02:54 [[32minfo[39m]: Entering email
+2024-05-22 12:02:54 [[32minfo[39m]: Entering password
+2024-05-22 12:02:54 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 12:02:54 [[32minfo[39m]: Form submitted
+2024-05-22 12:02:54 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-22 12:02:54 [[32minfo[39m]: Expected: true, Actual: false
+2024-05-22 12:02:54 [[31merror[39m]: Test case TC_Login_Positive_01 failed with error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+2024-05-22 12:02:56 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 12:02:56 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_01
+2024-05-22 12:02:56 [[32minfo[39m]: Clicking on the login button
+2024-05-22 12:02:57 [[32minfo[39m]: Entering email
+2024-05-22 12:02:57 [[32minfo[39m]: Entering password
+2024-05-22 12:02:58 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 12:02:58 [[32minfo[39m]: Form submitted
+2024-05-22 12:02:58 [[32minfo[39m]: Waiting for invalid credentials error message to be visible
+2024-05-22 12:02:58 [[32minfo[39m]: Expected: true, Actual: false
+2024-05-22 12:02:58 [[31merror[39m]: Test case TC_Login_Negative_01 failed with error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+2024-05-22 12:02:59 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 12:03:00 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-22 12:03:00 [[32minfo[39m]: Clicking on the login button
+2024-05-22 12:03:00 [[32minfo[39m]: Entering email
+2024-05-22 12:03:00 [[32minfo[39m]: Entering password
+2024-05-22 12:03:00 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 12:03:00 [[32minfo[39m]: Form submitted
+2024-05-22 12:03:00 [[32minfo[39m]: Waiting for empty email error message to be visible
+2024-05-22 12:03:00 [[32minfo[39m]: Expected: true, Actual: false
+2024-05-22 12:03:00 [[31merror[39m]: Test case TC_Login_Negative_02 failed with error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+2024-05-22 12:05:06 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 12:05:06 [[32minfo[39m]: Starting positive test case: TC_Login_Positive_01
+2024-05-22 12:05:06 [[32minfo[39m]: Clicking on the login button
+2024-05-22 12:05:07 [[32minfo[39m]: Entering email
+2024-05-22 12:05:07 [[32minfo[39m]: Entering password
+2024-05-22 12:05:07 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 12:05:07 [[32minfo[39m]: Form submitted
+2024-05-22 12:05:07 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-22 12:05:07 [[32minfo[39m]: Expected: true, Actual: false
+2024-05-22 12:05:07 [[31merror[39m]: Test case TC_Login_Positive_01 failed with error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+2024-05-22 12:05:09 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 12:05:09 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_01
+2024-05-22 12:05:09 [[32minfo[39m]: Clicking on the login button
+2024-05-22 12:05:10 [[32minfo[39m]: Entering email
+2024-05-22 12:05:10 [[32minfo[39m]: Entering password
+2024-05-22 12:05:10 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 12:05:10 [[32minfo[39m]: Form submitted
+2024-05-22 12:05:10 [[32minfo[39m]: Waiting for invalid credentials error message to be visible
+2024-05-22 12:05:10 [[32minfo[39m]: Expected: true, Actual: false
+2024-05-22 12:05:10 [[31merror[39m]: Test case TC_Login_Negative_01 failed with error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+2024-05-22 12:05:13 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 12:05:13 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-22 12:05:13 [[32minfo[39m]: Clicking on the login button
+2024-05-22 12:05:13 [[32minfo[39m]: Entering email
+2024-05-22 12:05:14 [[32minfo[39m]: Entering password
+2024-05-22 12:05:14 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 12:05:14 [[32minfo[39m]: Form submitted
+2024-05-22 12:05:14 [[32minfo[39m]: Waiting for empty email error message to be visible
+2024-05-22 12:05:14 [[32minfo[39m]: Expected: true, Actual: false
+2024-05-22 12:05:14 [[31merror[39m]: Test case TC_Login_Negative_02 failed with error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+2024-05-22 12:08:30 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 12:08:30 [[32minfo[39m]: Starting positive test case: TC_Login_Positive_01
+2024-05-22 12:08:30 [[32minfo[39m]: Clicking on the login button
+2024-05-22 12:08:31 [[32minfo[39m]: Entering email
+2024-05-22 12:08:32 [[32minfo[39m]: Entering password
+2024-05-22 12:08:32 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 12:08:32 [[32minfo[39m]: Form submitted
+2024-05-22 12:08:32 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-22 12:08:34 [[31merror[39m]: Test case TC_Login_Positive_01 failed with error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mundefined[39m
+2024-05-22 12:08:36 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 12:08:36 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_01
+2024-05-22 12:08:36 [[32minfo[39m]: Clicking on the login button
+2024-05-22 12:08:37 [[32minfo[39m]: Entering email
+2024-05-22 12:08:37 [[32minfo[39m]: Entering password
+2024-05-22 12:08:37 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 12:08:38 [[32minfo[39m]: Form submitted
+2024-05-22 12:08:38 [[32minfo[39m]: Waiting for invalid credentials error message to be visible
+2024-05-22 12:08:38 [[32minfo[39m]: Error message visible: undefined
+2024-05-22 12:08:38 [[31merror[39m]: Test case TC_Login_Negative_01 failed with error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mundefined[39m
+2024-05-22 12:08:39 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 12:08:39 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-22 12:08:39 [[32minfo[39m]: Clicking on the login button
+2024-05-22 12:08:40 [[32minfo[39m]: Entering email
+2024-05-22 12:08:40 [[32minfo[39m]: Entering password
+2024-05-22 12:08:40 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 12:08:40 [[32minfo[39m]: Form submitted
+2024-05-22 12:08:40 [[32minfo[39m]: Waiting for empty email error message to be visible
+2024-05-22 12:09:09 [[31merror[39m]: Test case TC_Login_Negative_02 failed with error: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('span.form_element__error:has-text("Vul een geldig e-mailadres in, bijvoorbeeld test@plieger.nl")') to be visible[22m
+
+2024-05-22 12:13:30 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 12:13:30 [[32minfo[39m]: Starting positive test case: TC_Login_Positive_01
+2024-05-22 12:13:30 [[32minfo[39m]: Clicking on the login button
+2024-05-22 12:13:30 [[32minfo[39m]: Entering email
+2024-05-22 12:13:30 [[32minfo[39m]: Entering password
+2024-05-22 12:13:30 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 12:13:30 [[32minfo[39m]: Form submitted
+2024-05-22 12:13:30 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-22 12:13:30 [[32minfo[39m]: Expected: true, Actual: false
+2024-05-22 12:13:30 [[31merror[39m]: Test case TC_Login_Positive_01 failed with error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+2024-05-22 12:13:33 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 12:13:33 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_01
+2024-05-22 12:13:33 [[32minfo[39m]: Clicking on the login button
+2024-05-22 12:13:33 [[32minfo[39m]: Entering email
+2024-05-22 12:13:33 [[32minfo[39m]: Entering password
+2024-05-22 12:13:33 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 12:13:33 [[32minfo[39m]: Form submitted
+2024-05-22 12:13:33 [[32minfo[39m]: Waiting for invalid credentials error message to be visible
+2024-05-22 12:13:33 [[32minfo[39m]: Expected: true, Actual: false
+2024-05-22 12:13:33 [[31merror[39m]: Test case TC_Login_Negative_01 failed with error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+2024-05-22 12:13:36 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 12:13:36 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-22 12:13:36 [[32minfo[39m]: Clicking on the login button
+2024-05-22 12:13:37 [[32minfo[39m]: Entering email
+2024-05-22 12:13:37 [[32minfo[39m]: Entering password
+2024-05-22 12:13:37 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 12:13:37 [[32minfo[39m]: Form submitted
+2024-05-22 12:13:37 [[32minfo[39m]: Waiting for empty email error message to be visible
+2024-05-22 12:13:37 [[32minfo[39m]: Expected: true, Actual: false
+2024-05-22 12:13:37 [[31merror[39m]: Test case TC_Login_Negative_02 failed with error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+2024-05-22 12:15:20 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 12:15:20 [[32minfo[39m]: Starting positive test case: TC_Login_Positive_01
+2024-05-22 12:15:20 [[32minfo[39m]: Clicking on the login button
+2024-05-22 12:15:21 [[32minfo[39m]: Entering email
+2024-05-22 12:15:21 [[32minfo[39m]: Entering password
+2024-05-22 12:15:21 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 12:15:21 [[32minfo[39m]: Form submitted
+2024-05-22 12:15:21 [[32minfo[39m]: Current URL: https://ecomstag.plieger.nl/login
+2024-05-22 12:15:21 [[32minfo[39m]: Expected URL to contain: account, Actual URL: https://ecomstag.plieger.nl/login
+2024-05-22 12:15:21 [[31merror[39m]: Test case TC_Login_Positive_01 failed with error: [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+Expected substring: [32m"account"[39m
+Received string:    [31m"https://ecomstag.plieger.nl/login"[39m
+2024-05-22 12:16:00 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 12:16:00 [[32minfo[39m]: Starting positive test case: TC_Login_Positive_01
+2024-05-22 12:16:00 [[32minfo[39m]: Clicking on the login button
+2024-05-22 12:16:00 [[32minfo[39m]: Entering email
+2024-05-22 12:16:01 [[32minfo[39m]: Entering password
+2024-05-22 12:16:01 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 12:16:01 [[32minfo[39m]: Form submitted
+2024-05-22 12:16:01 [[32minfo[39m]: Current URL: https://ecomstag.plieger.nl/login
+2024-05-22 12:16:01 [[32minfo[39m]: Expected URL to contain: account, Actual URL: https://ecomstag.plieger.nl/login
+2024-05-22 12:16:01 [[31merror[39m]: Test case TC_Login_Positive_01 failed with error: [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+Expected substring: [32m"account"[39m
+Received string:    [31m"https://ecomstag.plieger.nl/login"[39m
+2024-05-22 12:19:54 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 12:19:54 [[32minfo[39m]: Starting positive test case: TC_Login_Positive_01
+2024-05-22 12:19:54 [[32minfo[39m]: Clicking on the login button
+2024-05-22 12:19:55 [[32minfo[39m]: Entering email
+2024-05-22 12:19:55 [[32minfo[39m]: Entering password
+2024-05-22 12:19:55 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 12:19:56 [[32minfo[39m]: Form submitted
+2024-05-22 12:19:56 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-22 12:19:58 [[32minfo[39m]: Expected: true, Actual: true
+2024-05-22 12:19:58 [[32minfo[39m]: Current URL: https://ecomstag.plieger.nl/account
+2024-05-22 12:19:58 [[32minfo[39m]: Expected URL to contain: account, Actual URL: https://ecomstag.plieger.nl/account
+2024-05-22 12:19:58 [[32minfo[39m]: Test case TC_Login_Positive_01 passed
+2024-05-22 12:22:18 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 12:22:18 [[32minfo[39m]: Starting positive test case: TC_Login_Positive_01
+2024-05-22 12:22:18 [[32minfo[39m]: Clicking on the login button
+2024-05-22 12:22:19 [[32minfo[39m]: Entering email
+2024-05-22 12:22:19 [[32minfo[39m]: Entering password
+2024-05-22 12:22:19 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 12:22:19 [[32minfo[39m]: Form submitted
+2024-05-22 12:22:19 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-22 12:22:21 [[32minfo[39m]: Expected: true, Actual: true
+2024-05-22 12:22:21 [[32minfo[39m]: Current URL: https://ecomstag.plieger.nl/account
+2024-05-22 12:22:21 [[32minfo[39m]: Expected URL to contain: account, Actual URL: https://ecomstag.plieger.nl/account
+2024-05-22 12:22:21 [[32minfo[39m]: Test case TC_Login_Positive_01 passed
+2024-05-22 12:22:23 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 12:22:23 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_01
+2024-05-22 12:22:23 [[32minfo[39m]: Clicking on the login button
+2024-05-22 12:22:24 [[32minfo[39m]: Entering email
+2024-05-22 12:22:24 [[32minfo[39m]: Entering password
+2024-05-22 12:22:24 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 12:22:24 [[32minfo[39m]: Form submitted
+2024-05-22 12:22:24 [[32minfo[39m]: Waiting for invalid credentials error message to be visible
+2024-05-22 12:22:26 [[32minfo[39m]: Expected: true, Actual: true
+2024-05-22 12:22:26 [[32minfo[39m]: Expected error message: Combinatie e-mail en wachtwoord onjuist, Actual error message: Combinatie e-mail en wachtwoord onjuist
+2024-05-22 12:22:26 [[32minfo[39m]: Test case TC_Login_Negative_01 passed
+2024-05-22 12:22:28 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 12:22:28 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-22 12:22:28 [[32minfo[39m]: Clicking on the login button
+2024-05-22 12:22:28 [[32minfo[39m]: Entering email
+2024-05-22 12:22:29 [[32minfo[39m]: Entering password
+2024-05-22 12:22:29 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 12:22:29 [[32minfo[39m]: Form submitted
+2024-05-22 12:22:29 [[32minfo[39m]: Waiting for empty email error message to be visible
+2024-05-22 12:22:31 [[32minfo[39m]: Expected: true, Actual: false
+2024-05-22 12:22:31 [[31merror[39m]: Test case TC_Login_Negative_02 failed with error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+2024-05-22 12:25:06 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 12:25:06 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_01
+2024-05-22 12:25:06 [[32minfo[39m]: Clicking on the login button
+2024-05-22 12:25:07 [[32minfo[39m]: Entering email
+2024-05-22 12:25:07 [[32minfo[39m]: Entering password
+2024-05-22 12:25:07 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 12:25:07 [[32minfo[39m]: Form submitted
+2024-05-22 12:25:07 [[32minfo[39m]: Waiting for invalid credentials error message to be visible
+2024-05-22 12:25:09 [[32minfo[39m]: Expected: true, Actual: true
+2024-05-22 12:25:09 [[32minfo[39m]: Expected error message: Combinatie e-mail en wachtwoord onjuist, Actual error message: Combinatie e-mail en wachtwoord onjuist
+2024-05-22 12:25:09 [[32minfo[39m]: Test case TC_Login_Negative_01 passed
+2024-05-22 12:25:41 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 12:25:41 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-22 12:25:41 [[32minfo[39m]: Clicking on the login button
+2024-05-22 12:25:42 [[32minfo[39m]: Entering email
+2024-05-22 12:25:43 [[32minfo[39m]: Entering password
+2024-05-22 12:25:43 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 12:25:43 [[32minfo[39m]: Form submitted
+2024-05-22 12:25:43 [[32minfo[39m]: Waiting for empty email error message to be visible
+2024-05-22 12:25:45 [[32minfo[39m]: Expected: true, Actual: false
+2024-05-22 12:25:45 [[31merror[39m]: Test case TC_Login_Negative_02 failed with error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+2024-05-22 12:29:45 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 12:29:45 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-22 12:29:45 [[32minfo[39m]: Clicking on the login button
+2024-05-22 12:29:46 [[32minfo[39m]: Entering email
+2024-05-22 12:29:46 [[32minfo[39m]: Entering password
+2024-05-22 12:29:46 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 12:29:46 [[32minfo[39m]: Form submitted
+2024-05-22 12:29:46 [[32minfo[39m]: Waiting for empty email error message to be visible
+2024-05-22 12:29:48 [[32minfo[39m]: Expected: true, Actual: false
+2024-05-22 12:29:48 [[31merror[39m]: Test case TC_Login_Negative_02 failed with error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+2024-05-22 12:32:45 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 12:32:45 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-22 12:32:45 [[32minfo[39m]: Clicking on the login button
+2024-05-22 12:32:46 [[32minfo[39m]: Entering email
+2024-05-22 12:32:46 [[32minfo[39m]: Entering password
+2024-05-22 12:32:46 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 12:32:46 [[32minfo[39m]: Form submitted
+2024-05-22 12:32:46 [[32minfo[39m]: Waiting for empty email error message to be visible
+2024-05-22 12:32:48 [[32minfo[39m]: Expected: true, Actual: false
+2024-05-22 12:32:48 [[31merror[39m]: Test case TC_Login_Negative_02 failed with error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+2024-05-22 13:33:34 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 13:33:34 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-22 13:33:34 [[32minfo[39m]: Clicking on the login button
+2024-05-22 13:33:35 [[32minfo[39m]: Entering email
+2024-05-22 13:33:35 [[32minfo[39m]: Entering password
+2024-05-22 13:33:35 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 13:33:35 [[32minfo[39m]: Form submitted
+2024-05-22 13:33:35 [[32minfo[39m]: Waiting for empty email error message to be visible
+2024-05-22 13:33:37 [[32minfo[39m]: Expected: true, Actual: true
+2024-05-22 13:33:37 [[32minfo[39m]: Actual error message on UI: Vul je e-mailadres in
+2024-05-22 13:33:37 [[32minfo[39m]: Expected error message: Vul je e-mailadres in, Actual error message: Vul je e-mailadres in
+2024-05-22 13:33:37 [[32minfo[39m]: Test case TC_Login_Negative_02 passed
+2024-05-22 13:34:29 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 13:34:29 [[32minfo[39m]: Starting positive test case: TC_Login_Positive_01
+2024-05-22 13:34:29 [[32minfo[39m]: Clicking on the login button
+2024-05-22 13:34:30 [[32minfo[39m]: Entering email
+2024-05-22 13:34:30 [[32minfo[39m]: Entering password
+2024-05-22 13:34:30 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 13:34:31 [[32minfo[39m]: Form submitted
+2024-05-22 13:34:31 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-22 13:34:33 [[32minfo[39m]: Expected: true, Actual: true
+2024-05-22 13:34:33 [[32minfo[39m]: Current URL: https://ecomstag.plieger.nl/account
+2024-05-22 13:34:33 [[32minfo[39m]: Expected URL to contain: account, Actual URL: https://ecomstag.plieger.nl/account
+2024-05-22 13:34:33 [[32minfo[39m]: Test case TC_Login_Positive_01 passed
+2024-05-22 13:34:34 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 13:34:34 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_01
+2024-05-22 13:34:34 [[32minfo[39m]: Clicking on the login button
+2024-05-22 13:34:34 [[32minfo[39m]: Entering email
+2024-05-22 13:34:35 [[32minfo[39m]: Entering password
+2024-05-22 13:34:35 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 13:34:35 [[32minfo[39m]: Form submitted
+2024-05-22 13:34:35 [[32minfo[39m]: Waiting for invalid credentials error message to be visible
+2024-05-22 13:34:37 [[32minfo[39m]: Expected: true, Actual: true
+2024-05-22 13:34:37 [[32minfo[39m]: Expected error message: Combinatie e-mail en wachtwoord onjuist, Actual error message: Combinatie e-mail en wachtwoord onjuist
+2024-05-22 13:34:37 [[32minfo[39m]: Test case TC_Login_Negative_01 passed
+2024-05-22 13:34:39 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 13:34:39 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-22 13:34:39 [[32minfo[39m]: Clicking on the login button
+2024-05-22 13:34:39 [[32minfo[39m]: Entering email
+2024-05-22 13:34:40 [[32minfo[39m]: Entering password
+2024-05-22 13:34:40 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 13:34:40 [[32minfo[39m]: Form submitted
+2024-05-22 13:34:40 [[32minfo[39m]: Waiting for empty email error message to be visible
+2024-05-22 13:34:42 [[32minfo[39m]: Expected: true, Actual: true
+2024-05-22 13:34:42 [[32minfo[39m]: Actual error message on UI: Vul je e-mailadres in
+2024-05-22 13:34:42 [[32minfo[39m]: Expected error message: Vul je e-mailadres in, Actual error message: Vul je e-mailadres in
+2024-05-22 13:34:42 [[32minfo[39m]: Test case TC_Login_Negative_02 passed
+2024-05-22 13:48:03 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 13:48:03 [[32minfo[39m]: Starting positive test case: TC_Login_Positive_01
+2024-05-22 13:48:03 [[32minfo[39m]: Clicking on the login button
+2024-05-22 13:48:04 [[32minfo[39m]: Entering email
+2024-05-22 13:48:04 [[32minfo[39m]: Entering password
+2024-05-22 13:48:04 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 13:48:04 [[32minfo[39m]: Form submitted
+2024-05-22 13:48:04 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-22 13:48:06 [[32minfo[39m]: Expected: true, Actual: true
+2024-05-22 13:48:06 [[32minfo[39m]: Current URL: https://ecomstag.plieger.nl/account
+2024-05-22 13:48:06 [[32minfo[39m]: Expected URL to contain: account, Actual URL: https://ecomstag.plieger.nl/account
+2024-05-22 13:48:06 [[32minfo[39m]: Test case TC_Login_Positive_01 passed
+2024-05-22 13:48:07 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 13:48:07 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_01
+2024-05-22 13:48:07 [[32minfo[39m]: Clicking on the login button
+2024-05-22 13:48:08 [[32minfo[39m]: Entering email
+2024-05-22 13:48:08 [[32minfo[39m]: Entering password
+2024-05-22 13:48:08 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 13:48:08 [[32minfo[39m]: Form submitted
+2024-05-22 13:48:08 [[32minfo[39m]: Waiting for invalid credentials error message to be visible
+2024-05-22 13:48:10 [[32minfo[39m]: Expected: true, Actual: true
+2024-05-22 13:48:10 [[32minfo[39m]: Expected error message: Combinatie e-mail en wachtwoord onjuist, Actual error message: Combinatie e-mail en wachtwoord onjuist
+2024-05-22 13:48:10 [[32minfo[39m]: Test case TC_Login_Negative_01 passed
+2024-05-22 13:48:11 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 13:48:11 [[32minfo[39m]: Starting negative test case: TC_Login_Negative_02
+2024-05-22 13:48:11 [[32minfo[39m]: Clicking on the login button
+2024-05-22 13:48:12 [[32minfo[39m]: Entering email
+2024-05-22 13:48:12 [[32minfo[39m]: Entering password
+2024-05-22 13:48:12 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 13:48:12 [[32minfo[39m]: Form submitted
+2024-05-22 13:48:12 [[32minfo[39m]: Waiting for empty email error message to be visible
+2024-05-22 13:48:14 [[32minfo[39m]: Expected: true, Actual: true
+2024-05-22 13:48:14 [[32minfo[39m]: Actual error message on login page: Vul je e-mailadres in
+2024-05-22 13:48:14 [[32minfo[39m]: Expected error message: Vul je e-mailadres in, Actual error message: Vul je e-mailadres in
+2024-05-22 13:48:14 [[32minfo[39m]: Test case TC_Login_Negative_02 passed
+2024-05-22 14:05:52 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 14:05:52 [[32minfo[39m]: Starting test case: undefined
+2024-05-22 14:05:52 [[32minfo[39m]: Clicking on the login button
+2024-05-22 14:05:53 [[32minfo[39m]: Entering email
+2024-05-22 14:05:53 [[32minfo[39m]: Entering password
+2024-05-22 14:05:53 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 14:05:53 [[32minfo[39m]: Form submitted
+2024-05-22 14:05:53 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-22 14:05:55 [[32minfo[39m]: Expected: true, Actual: true
+2024-05-22 14:05:55 [[32minfo[39m]: Current URL: https://ecomstag.plieger.nl/account
+2024-05-22 14:05:55 [[32minfo[39m]: Expected URL to contain: account, Actual URL: https://ecomstag.plieger.nl/account
+2024-05-22 14:05:55 [[32minfo[39m]: Test case passed
+2024-05-22 14:05:57 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 14:05:57 [[32minfo[39m]: Starting test case: undefined
+2024-05-22 14:05:57 [[32minfo[39m]: Clicking on the login button
+2024-05-22 14:05:57 [[32minfo[39m]: Entering email
+2024-05-22 14:05:57 [[32minfo[39m]: Entering password
+2024-05-22 14:05:57 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 14:05:57 [[32minfo[39m]: Form submitted
+2024-05-22 14:05:57 [[32minfo[39m]: Waiting for error message to be visible
+2024-05-22 14:05:59 [[32minfo[39m]: Expected: true, Actual: Combinatie e-mail en wachtwoord onjuist
+2024-05-22 14:06:26 [[31merror[39m]: Error fetching error message text: locator.textContent: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('span[data-formik-error="true"]:has-text("Vul je e-mailadres in")')[22m
+
+2024-05-22 14:06:26 [[31merror[39m]: Test case failed with error: locator.textContent: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('span[data-formik-error="true"]:has-text("Vul je e-mailadres in")')[22m
+
+2024-05-22 14:06:31 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 14:06:31 [[32minfo[39m]: Starting test case: undefined
+2024-05-22 14:06:31 [[32minfo[39m]: Clicking on the login button
+2024-05-22 14:06:32 [[32minfo[39m]: Entering email
+2024-05-22 14:06:32 [[32minfo[39m]: Entering password
+2024-05-22 14:06:32 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 14:06:32 [[32minfo[39m]: Form submitted
+2024-05-22 14:06:32 [[32minfo[39m]: Waiting for error message to be visible
+2024-05-22 14:07:00 [[31merror[39m]: Error fetching error message text: locator.textContent: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('.inline-notification__content b:has-text("Combinatie e-mail en wachtwoord onjuist")')[22m
+
+2024-05-22 14:07:00 [[31merror[39m]: Test case failed with error: locator.textContent: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('.inline-notification__content b:has-text("Combinatie e-mail en wachtwoord onjuist")')[22m
+
+2024-05-22 14:08:13 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 14:08:13 [[32minfo[39m]: Starting test case: User should log in with valid credentials
+2024-05-22 14:08:13 [[32minfo[39m]: Clicking on the login button
+2024-05-22 14:08:13 [[32minfo[39m]: Entering email
+2024-05-22 14:08:14 [[32minfo[39m]: Entering password
+2024-05-22 14:08:14 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 14:08:14 [[32minfo[39m]: Form submitted
+2024-05-22 14:08:14 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-22 14:08:16 [[32minfo[39m]: Expected: true, Actual: true
+2024-05-22 14:08:16 [[32minfo[39m]: Current URL: https://ecomstag.plieger.nl/account
+2024-05-22 14:08:16 [[32minfo[39m]: Expected URL to contain: account, Actual URL: https://ecomstag.plieger.nl/account
+2024-05-22 14:08:16 [[32minfo[39m]: Test case passed
+2024-05-22 14:08:17 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 14:08:17 [[32minfo[39m]: Starting test case: User should not log in with incorrect credentials
+2024-05-22 14:08:17 [[32minfo[39m]: Clicking on the login button
+2024-05-22 14:08:18 [[32minfo[39m]: Entering email
+2024-05-22 14:08:18 [[32minfo[39m]: Entering password
+2024-05-22 14:08:18 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 14:08:19 [[32minfo[39m]: Form submitted
+2024-05-22 14:08:19 [[32minfo[39m]: Waiting for error message to be visible
+2024-05-22 14:08:21 [[32minfo[39m]: Expected: true, Actual: true
+2024-05-22 14:08:21 [[32minfo[39m]: Actual error message on UI: Combinatie e-mail en wachtwoord onjuist
+2024-05-22 14:08:21 [[32minfo[39m]: Expected error message: Combinatie e-mail en wachtwoord onjuist, Actual error message: Combinatie e-mail en wachtwoord onjuist
+2024-05-22 14:08:21 [[32minfo[39m]: Test case passed
+2024-05-22 14:08:22 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 14:08:22 [[32minfo[39m]: Starting test case: User should not log in with empty email and password fields
+2024-05-22 14:08:22 [[32minfo[39m]: Clicking on the login button
+2024-05-22 14:08:22 [[32minfo[39m]: Entering email
+2024-05-22 14:08:22 [[32minfo[39m]: Entering password
+2024-05-22 14:08:22 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 14:08:22 [[32minfo[39m]: Form submitted
+2024-05-22 14:08:22 [[32minfo[39m]: Waiting for error message to be visible
+2024-05-22 14:08:24 [[32minfo[39m]: Expected: true, Actual: false
+2024-05-22 14:08:24 [[31merror[39m]: Test case failed with error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+2024-05-22 14:13:20 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 14:13:20 [[32minfo[39m]: Starting test case: User should log in with valid credentials
+2024-05-22 14:13:20 [[32minfo[39m]: Clicking on the login button
+2024-05-22 14:13:21 [[32minfo[39m]: Entering email
+2024-05-22 14:13:21 [[32minfo[39m]: Entering password
+2024-05-22 14:13:21 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 14:13:21 [[32minfo[39m]: Form submitted
+2024-05-22 14:13:21 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-22 14:13:23 [[32minfo[39m]: Expected: true, Actual: true
+2024-05-22 14:13:23 [[32minfo[39m]: Current URL: https://ecomstag.plieger.nl/account
+2024-05-22 14:13:23 [[32minfo[39m]: Expected URL to contain: account, Actual URL: https://ecomstag.plieger.nl/account
+2024-05-22 14:13:23 [[32minfo[39m]: Test case passed
+2024-05-22 14:13:25 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 14:13:25 [[32minfo[39m]: Starting test case: User should not log in with incorrect credentials
+2024-05-22 14:13:25 [[32minfo[39m]: Clicking on the login button
+2024-05-22 14:13:26 [[32minfo[39m]: Entering email
+2024-05-22 14:13:26 [[32minfo[39m]: Entering password
+2024-05-22 14:13:26 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 14:13:26 [[32minfo[39m]: Form submitted
+2024-05-22 14:13:26 [[32minfo[39m]: Waiting for error message to be visible
+2024-05-22 14:13:28 [[32minfo[39m]: Expected: true, Actual: true
+2024-05-22 14:13:28 [[32minfo[39m]: Actual error message on UI: Combinatie e-mail en wachtwoord onjuist
+2024-05-22 14:13:28 [[32minfo[39m]: Expected error message: Combinatie e-mail en wachtwoord onjuist, Actual error message: Combinatie e-mail en wachtwoord onjuist
+2024-05-22 14:13:28 [[32minfo[39m]: Test case passed
+2024-05-22 14:13:29 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 14:13:29 [[32minfo[39m]: Starting test case: User should not log in with empty email and password fields
+2024-05-22 14:13:29 [[32minfo[39m]: Clicking on the login button
+2024-05-22 14:13:30 [[32minfo[39m]: Entering email
+2024-05-22 14:13:30 [[32minfo[39m]: Entering password
+2024-05-22 14:13:30 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 14:13:30 [[32minfo[39m]: Form submitted
+2024-05-22 14:13:30 [[32minfo[39m]: Waiting for error message to be visible
+2024-05-22 14:13:32 [[32minfo[39m]: Expected: true, Actual: true
+2024-05-22 14:13:32 [[32minfo[39m]: Actual error message on UI: Vul je e-mailadres in
+2024-05-22 14:13:32 [[32minfo[39m]: Expected error message: Vul je e-mailadres in, Actual error message: Vul je e-mailadres in
+2024-05-22 14:13:32 [[32minfo[39m]: Test case passed
+2024-05-22 14:33:38 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 14:33:38 [[32minfo[39m]: Starting test case: User should log in with valid credentials
+2024-05-22 14:33:38 [[32minfo[39m]: Clicking on the login button
+2024-05-22 14:33:39 [[32minfo[39m]: Entering email
+2024-05-22 14:33:39 [[32minfo[39m]: Entering password
+2024-05-22 14:33:39 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 14:33:39 [[32minfo[39m]: Form submitted
+2024-05-22 14:33:39 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-22 14:33:41 [[32minfo[39m]: Expected: true, Actual: true
+2024-05-22 14:33:41 [[32minfo[39m]: Current URL: https://ecomstag.plieger.nl/account
+2024-05-22 14:33:41 [[32minfo[39m]: Expected URL to contain: account, Actual URL: https://ecomstag.plieger.nl/account
+2024-05-22 14:33:41 [[32minfo[39m]: Test case passed
+2024-05-22 14:33:43 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 14:33:43 [[32minfo[39m]: Starting test case: User should not log in with incorrect credentials
+2024-05-22 14:33:43 [[32minfo[39m]: Clicking on the login button
+2024-05-22 14:33:43 [[32minfo[39m]: Entering email
+2024-05-22 14:33:44 [[32minfo[39m]: Entering password
+2024-05-22 14:33:44 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 14:33:44 [[32minfo[39m]: Form submitted
+2024-05-22 14:33:44 [[32minfo[39m]: Waiting for error message to be visible
+2024-05-22 14:33:46 [[32minfo[39m]: Expected: true, Actual: true
+2024-05-22 14:33:46 [[32minfo[39m]: Actual error message on login page: Combinatie e-mail en wachtwoord onjuist
+2024-05-22 14:33:46 [[32minfo[39m]: Expected error message: Combinatie e-mail en wachtwoord onjuist, Actual error message: Combinatie e-mail en wachtwoord onjuist
+2024-05-22 14:33:46 [[32minfo[39m]: Test case passed
+2024-05-22 14:33:47 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 14:33:47 [[32minfo[39m]: Starting test case: User should not log in with empty email and password fields
+2024-05-22 14:33:47 [[32minfo[39m]: Clicking on the login button
+2024-05-22 14:33:47 [[32minfo[39m]: Entering email
+2024-05-22 14:33:48 [[32minfo[39m]: Entering password
+2024-05-22 14:33:48 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 14:33:48 [[32minfo[39m]: Form submitted
+2024-05-22 14:33:48 [[32minfo[39m]: Waiting for error message to be visible
+2024-05-22 14:33:50 [[32minfo[39m]: Expected: true, Actual: true
+2024-05-22 14:33:50 [[32minfo[39m]: Actual error message on login page: Vul je e-mailadres in
+2024-05-22 14:33:50 [[32minfo[39m]: Expected error message: Vul je e-mailadres in, Actual error message: Vul je e-mailadres in
+2024-05-22 14:33:50 [[32minfo[39m]: Test case passed

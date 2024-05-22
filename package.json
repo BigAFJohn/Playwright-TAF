@@ -1,0 +1,47 @@
+{
+  "name": "my-playwright-project",
+  "version": "1.0.0",
+  "description": "A test automation project using Playwright and the Page Object Model (POM) pattern.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:login": "npx playwright test tests/login.spec.js",
+    "test:headed": "npx playwright test --headed",
+    "test:chrome": "npx playwright test --project=chrome",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "author": "John Ige",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.20.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.20.0",
+    "eslint": "^7.32.0",
+    "prettier": "^2.3.2"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "es2021": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 12,
+      "sourceType": "module"
+    },
+    "rules": {
+      "indent": ["error", 2],
+      "linebreak-style": ["error", "unix"],
+      "quotes": ["error", "single"],
+      "semi": ["error", "always"]
+    }
+  },
+  "prettier": {
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  }
+}
