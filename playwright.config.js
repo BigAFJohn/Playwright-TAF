@@ -1,5 +1,6 @@
 // playwright.config.js
 const { devices } = require('@playwright/test');
+const allure = require('allure-playwright');
 
 module.exports = {
   testDir: './tests', // Directory where test files are located
@@ -8,7 +9,11 @@ module.exports = {
     timeout: 5000 // Timeout for expect assertions
   },
   retries: 0, // Number of retries on failure
-  reporter: [['html', { open: 'never' }]], // Reporter configuration
+  // reporter: [['html', { open: 'never' }]], // Reporter configuration
+  reporter: [
+    ['list'],
+    ['allure-playwright'],
+  ], 
   use: {
     headless: true, 
     viewport: { width: 1280, height: 720 }, // Default viewport size

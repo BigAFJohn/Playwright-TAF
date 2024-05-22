@@ -18,7 +18,9 @@
     "winston": "^3.3.3"
   },
   "devDependencies": {
-    "@playwright/test": "^1.20.0",
+    "@playwright/test": "^1.44.0",
+    "allure-commandline": "^2.29.0",
+    "allure-playwright": "^2.15.1",
     "eslint": "^7.32.0",
     "prettier": "^2.3.2"
   },
@@ -33,10 +35,22 @@
       "sourceType": "module"
     },
     "rules": {
-      "indent": ["error", 2],
-      "linebreak-style": ["error", "unix"],
-      "quotes": ["error", "single"],
-      "semi": ["error", "always"]
+      "indent": [
+        "error",
+        2
+      ],
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "quotes": [
+        "error",
+        "single"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ]
     }
   },
   "prettier": {

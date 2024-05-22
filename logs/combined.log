@@ -1594,3 +1594,108 @@ Received: [31mfalse[39m
 2024-05-22 14:33:50 [[32minfo[39m]: Actual error message on login page: Vul je e-mailadres in
 2024-05-22 14:33:50 [[32minfo[39m]: Expected error message: Vul je e-mailadres in, Actual error message: Vul je e-mailadres in
 2024-05-22 14:33:50 [[32minfo[39m]: Test case passed
+2024-05-22 15:17:04 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 15:17:04 [[32minfo[39m]: Starting test case: User should log in with valid credentials
+2024-05-22 15:17:04 [[32minfo[39m]: Clicking on the login button
+2024-05-22 15:17:12 [[32minfo[39m]: Entering email
+2024-05-22 15:17:12 [[32minfo[39m]: Entering password
+2024-05-22 15:17:12 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 15:17:12 [[32minfo[39m]: Form submitted
+2024-05-22 15:17:12 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-22 15:17:14 [[32minfo[39m]: Expected: true, Actual: true
+2024-05-22 15:17:14 [[32minfo[39m]: Current URL: https://ecomstag.plieger.nl/account
+2024-05-22 15:17:14 [[32minfo[39m]: Expected URL to contain: account, Actual URL: https://ecomstag.plieger.nl/account
+2024-05-22 15:17:14 [[32minfo[39m]: Test case passed
+2024-05-22 15:17:16 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 15:17:16 [[32minfo[39m]: Starting test case: User should not log in with incorrect credentials
+2024-05-22 15:17:16 [[32minfo[39m]: Clicking on the login button
+2024-05-22 15:17:23 [[32minfo[39m]: Entering email
+2024-05-22 15:17:24 [[32minfo[39m]: Entering password
+2024-05-22 15:17:24 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 15:17:24 [[32minfo[39m]: Form submitted
+2024-05-22 15:17:24 [[32minfo[39m]: Waiting for error message to be visible
+2024-05-22 15:17:26 [[32minfo[39m]: Expected: true, Actual: true
+2024-05-22 15:17:26 [[32minfo[39m]: Actual error message on login page: Combinatie e-mail en wachtwoord onjuist
+2024-05-22 15:17:26 [[32minfo[39m]: Expected error message: Combinatie e-mail en wachtwoord onjuist, Actual error message: Combinatie e-mail en wachtwoord onjuist
+2024-05-22 15:17:26 [[32minfo[39m]: Test case passed
+2024-05-22 15:17:27 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 15:17:28 [[32minfo[39m]: Starting test case: User should not log in with empty email and password fields
+2024-05-22 15:17:28 [[32minfo[39m]: Clicking on the login button
+2024-05-22 15:17:28 [[32minfo[39m]: Entering email
+2024-05-22 15:17:28 [[32minfo[39m]: Entering password
+2024-05-22 15:17:28 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 15:17:28 [[32minfo[39m]: Form submitted
+2024-05-22 15:17:28 [[32minfo[39m]: Waiting for error message to be visible
+2024-05-22 15:17:30 [[32minfo[39m]: Expected: true, Actual: true
+2024-05-22 15:17:30 [[32minfo[39m]: Actual error message on login page: Vul je e-mailadres in
+2024-05-22 15:17:30 [[32minfo[39m]: Expected error message: Vul je e-mailadres in, Actual error message: Vul je e-mailadres in
+2024-05-22 15:17:30 [[32minfo[39m]: Test case passed
+2024-05-22 15:21:57 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 15:21:57 [[32minfo[39m]: Starting test case: User should log in with valid credentials
+2024-05-22 15:21:57 [[32minfo[39m]: Clicking on the login button
+2024-05-22 15:21:58 [[32minfo[39m]: Entering email
+2024-05-22 15:21:58 [[32minfo[39m]: Entering password
+2024-05-22 15:21:58 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 15:21:58 [[32minfo[39m]: Form submitted
+2024-05-22 15:21:58 [[32minfo[39m]: Waiting for profile icon to be visible after login
+2024-05-22 15:22:00 [[32minfo[39m]: Expected: true, Actual: true
+2024-05-22 15:22:00 [[32minfo[39m]: Current URL: https://ecomstag.plieger.nl/account
+2024-05-22 15:22:00 [[32minfo[39m]: Expected URL to contain: account, Actual URL: https://ecomstag.plieger.nl/account
+2024-05-22 15:22:00 [[32minfo[39m]: Test case passed
+2024-05-22 15:22:01 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 15:22:02 [[32minfo[39m]: Starting test case: User should not log in with incorrect credentials
+2024-05-22 15:22:02 [[32minfo[39m]: Clicking on the login button
+2024-05-22 15:22:02 [[32minfo[39m]: Entering email
+2024-05-22 15:22:02 [[32minfo[39m]: Entering password
+2024-05-22 15:22:02 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 15:22:03 [[32minfo[39m]: Form submitted
+2024-05-22 15:22:03 [[32minfo[39m]: Waiting for error message to be visible
+2024-05-22 15:22:05 [[32minfo[39m]: Expected: true, Actual: true
+2024-05-22 15:22:05 [[32minfo[39m]: Actual error message on login page: Combinatie e-mail en wachtwoord onjuist
+2024-05-22 15:22:05 [[32minfo[39m]: Expected error message: Combinatie e-mail en wachtwoord onjuist, Actual error message: Combinatie e-mail en wachtwoord onjuist
+2024-05-22 15:22:05 [[32minfo[39m]: Test case passed
+2024-05-22 15:22:06 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 15:22:06 [[32minfo[39m]: Starting test case: User should not log in with empty email and password fields
+2024-05-22 15:22:06 [[32minfo[39m]: Clicking on the login button
+2024-05-22 15:22:07 [[32minfo[39m]: Entering email
+2024-05-22 15:22:07 [[32minfo[39m]: Entering password
+2024-05-22 15:22:07 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 15:22:08 [[32minfo[39m]: Form submitted
+2024-05-22 15:22:08 [[32minfo[39m]: Waiting for error message to be visible
+2024-05-22 15:22:10 [[32minfo[39m]: Expected: true, Actual: true
+2024-05-22 15:22:10 [[32minfo[39m]: Actual error message on login page: Vul je e-mailadres in
+2024-05-22 15:22:10 [[32minfo[39m]: Expected error message: Vul je e-mailadres in, Actual error message: Vul je e-mailadres in
+2024-05-22 15:22:10 [[32minfo[39m]: Test case passed
+2024-05-22 15:32:17 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 15:32:17 [[32minfo[39m]: Starting test case: User should log in with valid credentials
+2024-05-22 15:32:17 [[32minfo[39m]: Clicking on the login button
+2024-05-22 15:32:29 [[32minfo[39m]: Entering email
+2024-05-22 15:32:29 [[32minfo[39m]: Entering password
+2024-05-22 15:32:29 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 15:32:29 [[32minfo[39m]: Form submitted
+2024-05-22 15:32:31 [[32minfo[39m]: Expected: true, Actual: true
+2024-05-22 15:32:31 [[32minfo[39m]: Current URL: https://ecomstag.plieger.nl/account
+2024-05-22 15:32:31 [[32minfo[39m]: Expected URL to contain: account, Actual URL: https://ecomstag.plieger.nl/account
+2024-05-22 15:32:31 [[32minfo[39m]: Test case passed
+2024-05-22 15:32:33 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 15:32:33 [[32minfo[39m]: Starting test case: User should not log in with incorrect credentials
+2024-05-22 15:32:33 [[32minfo[39m]: Clicking on the login button
+2024-05-22 15:32:34 [[32minfo[39m]: Entering email
+2024-05-22 15:32:34 [[32minfo[39m]: Entering password
+2024-05-22 15:32:34 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 15:32:34 [[32minfo[39m]: Form submitted
+2024-05-22 15:32:36 [[32minfo[39m]: Expected: true, Actual: true
+2024-05-22 15:32:36 [[32minfo[39m]: Actual error message on login page: Combinatie e-mail en wachtwoord onjuist
+2024-05-22 15:32:36 [[32minfo[39m]: Expected error message: Combinatie e-mail en wachtwoord onjuist, Actual error message: Combinatie e-mail en wachtwoord onjuist
+2024-05-22 15:32:36 [[32minfo[39m]: Test case passed
+2024-05-22 15:32:38 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-22 15:32:38 [[32minfo[39m]: Starting test case: User should not log in with empty email and password fields
+2024-05-22 15:32:38 [[32minfo[39m]: Clicking on the login button
+2024-05-22 15:32:50 [[32minfo[39m]: Entering email
+2024-05-22 15:32:51 [[32minfo[39m]: Entering password
+2024-05-22 15:32:51 [[32minfo[39m]: Clicking the login submit button
+2024-05-22 15:32:51 [[32minfo[39m]: Form submitted
+2024-05-22 15:32:53 [[32minfo[39m]: Expected: true, Actual: true
+2024-05-22 15:32:53 [[32minfo[39m]: Actual error message on login page: Vul je e-mailadres in
+2024-05-22 15:32:53 [[32minfo[39m]: Expected error message: Vul je e-mailadres in, Actual error message: Vul je e-mailadres in
+2024-05-22 15:32:53 [[32minfo[39m]: Test case passed
