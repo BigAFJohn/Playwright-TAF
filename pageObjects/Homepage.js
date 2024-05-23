@@ -1,5 +1,6 @@
 const { expect } = require('@playwright/test');
 const logger = require('../logger');
+const { allure } = require('allure-playwright'); 
 
 class HomePage {
   constructor(page) {
@@ -32,15 +33,30 @@ class HomePage {
 
   async logInAsCustomer(customerEmail, customerPassword) {
     try {
-      logger.info('Clicking on the login button');
-      await this.loginButton.click();
-      logger.info('Entering email');
-      await this.loginField.fill(customerEmail);
-      logger.info('Entering password');
-      await this.passwordField.fill(customerPassword);
-      logger.info('Clicking the login submit button');
-      await this.loginSubmitBtn.click();
-      logger.info('Form submitted');
+      await allure.step('Clicking on the login button', async () => {
+        logger.info('Clicking on the login button');
+        await this.page.waitForTimeout(2000);
+        await this.loginButton.click();
+      });
+  
+      await allure.step('Entering email', async () => {
+        logger.info('Entering email');
+        await this.page.waitForTimeout(2000);
+        await this.loginField.fill(customerEmail);
+      });
+  
+      await allure.step('Entering password', async () => {
+        logger.info('Entering password');
+        await this.page.waitForTimeout(2000);
+        await this.passwordField.fill(customerPassword);
+      });
+  
+      await allure.step('Clicking the login submit button', async () => {
+        logger.info('Clicking the login submit button');
+        await this.page.waitForTimeout(2000);
+        await this.loginSubmitBtn.click();
+        logger.info('Form submitted');
+      });
     } catch (error) {
       logger.error(`Error during login: ${error.message}`);
       throw error;
@@ -56,6 +72,21 @@ class HomePage {
       throw error;
     }
   }
+
+  async enterAndSearch(searchText) {
+    try {
+      logger.info(`Entering search text: ${searchText}`);
+      await allure.step(`Entering search text: ${searchText}`, async () => {
+        await this.txtBoxSearch.fill(''); 
+        await this.txtBoxSearch.fill(searchText); 
+        await this.page.keyboard.press('Enter'); 
+      });
+    } catch (error) {
+      logger.error(`Error during search: ${error.message}`);
+      throw error;
+    }
+  }
+
 
   async getURL() {
     const url = await this.page.url();

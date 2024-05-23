@@ -21,6 +21,7 @@ module.exports = {
     invalidPassword: '1243',
     errorMessageForinvalidCredentials: 'Combinatie e-mail en wachtwoord onjuist',
     errorMessageForEmptyEmailField: 'Vul je e-mailadres in',
+    newBrand: 'Montagewijze',
     searchText: 'Plieger',
     cartSearchTerm: 'raminex',
     cartQuantityID: '1',

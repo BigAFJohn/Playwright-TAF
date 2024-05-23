@@ -9,6 +9,12 @@ test.describe('Login Tests', () => {
 
   test.beforeEach(async ({ page }) => {
     homePage = new HomePage(page);
+    
+    // Maximize the browser window
+    await page.evaluate(() => {
+      window.moveTo(0, 0);
+      window.resizeTo(screen.width, screen.height);
+    });
     await page.goto(testData.environmentUrl);
     await homePage.closeCookies(); 
   });

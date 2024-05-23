@@ -4,7 +4,7 @@ const allure = require('allure-playwright');
 
 module.exports = {
   testDir: './tests', // Directory where test files are located
-  timeout: 30000, // Timeout for each test in milliseconds
+  timeout: 50000, // Timeout for each test in milliseconds
   expect: {
     timeout: 5000 // Timeout for expect assertions
   },
@@ -16,7 +16,7 @@ module.exports = {
   ], 
   use: {
     headless: true, 
-    viewport: { width: 1280, height: 720 }, // Default viewport size
+    viewport: null, // Disable fixed viewport size
     actionTimeout: 0, // Timeout for actions like click
     ignoreHTTPSErrors: true, // Ignore HTTPS errors
     video: 'retain-on-failure', // Record video only on test failure
