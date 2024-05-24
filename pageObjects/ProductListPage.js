@@ -279,9 +279,16 @@ class ProductListPage {
   async elementExists(element) {
     logger.info('Checking if element exists');
     await allure.step('Checking if element exists', async () => {
-      await expect(element).toBeVisible({ message: `The element ${element} is not visible, please check` });
+      try {
+        await expect(element).toBeVisible({ timeout: 10000 });
+        logger.info(`The element ${element} is visible`);
+      } catch (error) {
+        logger.error(`The element ${element} is not visible, please check: ${error.message}`);
+        throw error;
+      }
     });
   }
+  
 
   async clickAddToBasket() {
     logger.info('Clicking on Add to Basket');
@@ -559,10 +566,18 @@ class ProductListPage {
   async searchTermDisplayed(term) {
     logger.info(`Checking if search term is displayed: ${term}`);
     await allure.step(`Checking if search term is displayed: ${term}`, async () => {
-      const displayedTerm = await this.searchedTerm.innerText();
-      expect(displayedTerm.trim('"')).toBe(term);
+      try {
+        await this.page.waitForTimeout(3000);
+        const displayedTerm = await this.searchedTerm.innerText();
+        logger.info(`Displayed term retrieved: ${displayedTerm}`);
+        expect(displayedTerm.trim('"')).toBe(term);
+      } catch (error) {
+        logger.error(`Error checking if search term is displayed: ${error.message}`);
+        throw error;
+      }
     });
   }
+  
 
   async goToShoppingCart() {
     logger.info('Going to shopping cart');

@@ -2707,3 +2707,195 @@ Call log:
   [2m- expect.toBeVisible with timeout 15000ms[22m
 [2m  - waiting for locator('p.c-pagination__number-of-results').first()[22m
 
+2024-05-24 20:35:20 [[31merror[39m]: Test case 002_01_Searching_By_clicking_SearchSuggestion failed with error: homePage.enterText is not a function
+2024-05-24 20:48:30 [[31merror[39m]: Error entering text:body is not a function
+2024-05-24 20:48:30 [[31merror[39m]: Test case 002_01_Searching_By_clicking_SearchSuggestion failed with error: body is not a function
+2024-05-24 20:52:46 [[31merror[39m]: Error clicking on search suggestions: locator.waitFor: Test timeout of 50000ms exceeded.
+Call log:
+  [2m- waiting for locator('div.c-autocomplete-suggestions').first() to be visible[22m
+
+2024-05-24 20:52:46 [[31merror[39m]: Test case 002_01_Searching_By_clicking_SearchSuggestion failed with error: locator.waitFor: Test timeout of 50000ms exceeded.
+Call log:
+  [2m- waiting for locator('div.c-autocomplete-suggestions').first() to be visible[22m
+
+2024-05-24 20:59:39 [[31merror[39m]: Error clicking on search suggestions: locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  [2m- waiting for locator('div.c-autocomplete-suggestions').first() to be visible[22m
+
+2024-05-24 20:59:39 [[31merror[39m]: Test case 002_01_Searching_By_clicking_SearchSuggestion failed with error: locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  [2m- waiting for locator('div.c-autocomplete-suggestions').first() to be visible[22m
+
+2024-05-24 21:09:20 [[31merror[39m]: Error clicking on search suggestions: locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  [2m- waiting for locator('div.c-autocomplete-suggestions').first() to be visible[22m
+
+2024-05-24 21:09:20 [[31merror[39m]: Test case 002_01_Searching_By_clicking_SearchSuggestion failed with error: locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  [2m- waiting for locator('div.c-autocomplete-suggestions').first() to be visible[22m
+
+2024-05-24 21:09:59 [[31merror[39m]: Error clicking on search suggestions: locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  [2m- waiting for locator('div.c-autocomplete-suggestions').first() to be visible[22m
+
+2024-05-24 21:09:59 [[31merror[39m]: Test case 002_01_Searching_By_clicking_SearchSuggestion failed with error: locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  [2m- waiting for locator('div.c-autocomplete-suggestions').first() to be visible[22m
+
+2024-05-24 21:17:59 [[31merror[39m]: Error clicking on search suggestions: locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  [2m- waiting for locator('div.c-autocomplete-suggestions').first() to be visible[22m
+
+2024-05-24 21:17:59 [[31merror[39m]: Test case 002_01_Searching_By_clicking_SearchSuggestion failed with error: locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  [2m- waiting for locator('div.c-autocomplete-suggestions').first() to be visible[22m
+
+2024-05-24 21:18:47 [[31merror[39m]: Error clicking on search suggestions: locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  [2m- waiting for locator('div.c-autocomplete-suggestions').first() to be visible[22m
+
+2024-05-24 21:18:47 [[31merror[39m]: Test case 002_01_Searching_By_clicking_SearchSuggestion failed with error: locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  [2m- waiting for locator('div.c-autocomplete-suggestions').first() to be visible[22m
+
+2024-05-24 21:23:20 [[31merror[39m]: Error clicking on search suggestions: locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  [2m- waiting for locator('div.c-autocomplete-suggestions').first() to be visible[22m
+
+2024-05-24 21:23:20 [[31merror[39m]: Test case 002_01_Searching_By_clicking_SearchSuggestion failed with error: locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  [2m- waiting for locator('div.c-autocomplete-suggestions').first() to be visible[22m
+
+2024-05-24 21:24:37 [[31merror[39m]: Error clicking on search suggestions: locator.click: Error: strict mode violation: locator('span.autocomplete-suggestions__text:has-text("Plieger")') resolved to 3 elements:
+    1) <span class="autocomplete-suggestions__text">…</span> aka getByRole('link', { name: 'plieger', exact: true })
+    2) <span class="autocomplete-suggestions__text">…</span> aka getByRole('link', { name: 'Mobile Test Producten Stock levels GC24 en Plieger in Test GC24' })
+    3) <span class="autocomplete-suggestions__text">…</span> aka getByRole('link', { name: 'Mobile Test Producten Stock levels alleen Plieger in Test GC24' })
+
+Call log:
+  [2m- waiting for locator('span.autocomplete-suggestions__text:has-text("Plieger")')[22m
+
+2024-05-24 21:24:37 [[31merror[39m]: Test case 002_01_Searching_By_clicking_SearchSuggestion failed with error: locator.click: Error: strict mode violation: locator('span.autocomplete-suggestions__text:has-text("Plieger")') resolved to 3 elements:
+    1) <span class="autocomplete-suggestions__text">…</span> aka getByRole('link', { name: 'plieger', exact: true })
+    2) <span class="autocomplete-suggestions__text">…</span> aka getByRole('link', { name: 'Mobile Test Producten Stock levels GC24 en Plieger in Test GC24' })
+    3) <span class="autocomplete-suggestions__text">…</span> aka getByRole('link', { name: 'Mobile Test Producten Stock levels alleen Plieger in Test GC24' })
+
+Call log:
+  [2m- waiting for locator('span.autocomplete-suggestions__text:has-text("Plieger")')[22m
+
+2024-05-24 21:27:28 [[31merror[39m]: Test case 002_01_Searching_By_clicking_SearchSuggestion failed with error: page is not defined
+2024-05-24 21:28:42 [[31merror[39m]: Error clicking on search suggestions: locator.click: Error: strict mode violation: locator('span.autocomplete-suggestions__text:has-text("Plieger")') resolved to 3 elements:
+    1) <span class="autocomplete-suggestions__text">…</span> aka getByRole('link', { name: 'plieger', exact: true })
+    2) <span class="autocomplete-suggestions__text">…</span> aka getByRole('link', { name: 'Mobile Test Producten Stock levels GC24 en Plieger in Test GC24' })
+    3) <span class="autocomplete-suggestions__text">…</span> aka getByRole('link', { name: 'Mobile Test Producten Stock levels alleen Plieger in Test GC24' })
+
+Call log:
+  [2m- waiting for locator('span.autocomplete-suggestions__text:has-text("Plieger")')[22m
+
+2024-05-24 21:28:42 [[31merror[39m]: Test case 002_01_Searching_By_clicking_SearchSuggestion failed with error: locator.click: Error: strict mode violation: locator('span.autocomplete-suggestions__text:has-text("Plieger")') resolved to 3 elements:
+    1) <span class="autocomplete-suggestions__text">…</span> aka getByRole('link', { name: 'plieger', exact: true })
+    2) <span class="autocomplete-suggestions__text">…</span> aka getByRole('link', { name: 'Mobile Test Producten Stock levels GC24 en Plieger in Test GC24' })
+    3) <span class="autocomplete-suggestions__text">…</span> aka getByRole('link', { name: 'Mobile Test Producten Stock levels alleen Plieger in Test GC24' })
+
+Call log:
+  [2m- waiting for locator('span.autocomplete-suggestions__text:has-text("Plieger")')[22m
+
+2024-05-24 21:33:16 [[31merror[39m]: Error clicking on search suggestions: page.waitForNavigation: Test timeout of 50000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "networkidle"
+============================================================
+2024-05-24 21:33:16 [[31merror[39m]: Test case 002_01_Searching_By_clicking_SearchSuggestion failed with error: page.waitForNavigation: Test timeout of 50000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "networkidle"
+============================================================
+2024-05-24 21:35:19 [[31merror[39m]: Error clicking on search suggestions: [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+Expected substring: [32m"Plieger"[39m
+Received string:    [31m"https://ecomstag.plieger.nl/search/?q=plieger"[39m
+2024-05-24 21:35:19 [[31merror[39m]: Test case 002_01_Searching_By_clicking_SearchSuggestion failed with error: [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+Expected substring: [32m"Plieger"[39m
+Received string:    [31m"https://ecomstag.plieger.nl/search/?q=plieger"[39m
+2024-05-24 21:44:20 [[31merror[39m]: Error clicking on search suggestions: page.waitForNavigation: Test timeout of 50000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "networkidle"
+============================================================
+2024-05-24 21:44:20 [[31merror[39m]: Test case 002_01_Searching_By_clicking_SearchSuggestion failed with error: page.waitForNavigation: Test timeout of 50000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "networkidle"
+============================================================
+2024-05-24 21:57:46 [[31merror[39m]: Test case 002_03_Searching_By_Exact_EAN failed with error: [2mexpect([22m[31mreceived[39m[2m).[22mtoEqual[2m([22m[32mexpected[39m[2m) // deep equality[22m
+
+Expected: [32m"\"8711238189994\""[39m
+Received: [31m"Geen resultaten gevonden"[39m
+2024-05-24 22:05:53 [[31merror[39m]: Test case 002_05_Searching_By_Term failed with error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"\"Roma\""[39m
+Received: [31m"Geen resultaten gevonden"[39m
+2024-05-24 22:12:53 [[31merror[39m]: Error clicking on object: locator.waitFor: selector: expected string, got object
+2024-05-24 22:12:53 [[31merror[39m]: Test case 002_07_Search_Clicking_On_First_Last_Viewed_Articles failed with error: locator.waitFor: selector: expected string, got object
+2024-05-24 22:20:12 [[31merror[39m]: Error checking recent looked at label: locator.waitFor: Test timeout of 50000ms exceeded.
+Call log:
+  [2m- waiting for locator('.autocomplete-products__content:has-text("4390074")') to be visible[22m
+
+2024-05-24 22:20:12 [[31merror[39m]: Test case 002_07_Search_Clicking_On_First_Last_Viewed_Articles failed with error: locator.waitFor: Test timeout of 50000ms exceeded.
+Call log:
+  [2m- waiting for locator('.autocomplete-products__content:has-text("4390074")') to be visible[22m
+
+2024-05-24 22:23:32 [[31merror[39m]: Error checking recent looked at label: locator.waitFor: Test timeout of 50000ms exceeded.
+Call log:
+  [2m- waiting for locator('.autocomplete-products__content:has-text("4390074")') to be visible[22m
+
+2024-05-24 22:23:32 [[31merror[39m]: Test case 002_07_Search_Clicking_On_First_Last_Viewed_Articles failed with error: locator.waitFor: Test timeout of 50000ms exceeded.
+Call log:
+  [2m- waiting for locator('.autocomplete-products__content:has-text("4390074")') to be visible[22m
+
+2024-05-24 22:39:36 [[31merror[39m]: Error getting product details: locator.textContent: Test timeout of 50000ms exceeded.
+Call log:
+  [2m- waiting for locator('h1.c-heading--h2')[22m
+
+2024-05-24 22:39:36 [[31merror[39m]: Test case 002_03_Searching_By_Exact_EAN failed with error: locator.textContent: Test timeout of 50000ms exceeded.
+Call log:
+  [2m- waiting for locator('h1.c-heading--h2')[22m
+
+2024-05-24 22:40:27 [[31merror[39m]: Error getting product details: locator.textContent: Test timeout of 50000ms exceeded.
+Call log:
+  [2m- waiting for locator('h1.c-heading--h2')[22m
+
+2024-05-24 22:40:27 [[31merror[39m]: Test case 002_04_Searching_By_Exact_Article failed with error: locator.textContent: Test timeout of 50000ms exceeded.
+Call log:
+  [2m- waiting for locator('h1.c-heading--h2')[22m
+
+2024-05-24 22:41:19 [[31merror[39m]: Error checking if search term is displayed: locator.innerText: Test timeout of 50000ms exceeded.
+Call log:
+  [2m- waiting for locator('.c-heading--h2')[22m
+
+2024-05-24 22:41:19 [[31merror[39m]: Test case 002_05_Searching_By_Term failed with error: locator.innerText: Test timeout of 50000ms exceeded.
+Call log:
+  [2m- waiting for locator('.c-heading--h2')[22m
+
+2024-05-24 22:41:45 [[31merror[39m]: The element locator('p.c-pagination__number-of-results').first() is not visible, please check: [31mTimed out 10000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: locator('p.c-pagination__number-of-results').first()
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toBeVisible with timeout 10000ms[22m
+[2m  - waiting for locator('p.c-pagination__number-of-results').first()[22m
+
+2024-05-24 22:41:45 [[31merror[39m]: Test case 002_06_Searching_By_Category failed with error: [31mTimed out 10000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: locator('p.c-pagination__number-of-results').first()
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toBeVisible with timeout 10000ms[22m
+[2m  - waiting for locator('p.c-pagination__number-of-results').first()[22m
+
+2024-05-24 22:42:37 [[31merror[39m]: Error clicking on object: locator.waitFor: Test timeout of 50000ms exceeded.
+Call log:
+  [2m- waiting for locator('.c-product-tile:has-text("4390074")') to be visible[22m
+
+2024-05-24 22:42:37 [[31merror[39m]: Test case 002_07_Search_Clicking_On_First_Last_Viewed_Articles failed with error: locator.waitFor: Test timeout of 50000ms exceeded.
+Call log:
+  [2m- waiting for locator('.c-product-tile:has-text("4390074")') to be visible[22m
+

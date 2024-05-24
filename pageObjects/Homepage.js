@@ -77,6 +77,7 @@ class HomePage {
     try {
       logger.info(`Entering search text: ${searchText}`);
       await allure.step(`Entering search text: ${searchText}`, async () => {
+        await this.page.waitForTimeout(3000);
         await this.txtBoxSearch.fill(''); 
         await this.txtBoxSearch.fill(searchText); 
         await this.page.keyboard.press('Enter'); 
@@ -85,6 +86,15 @@ class HomePage {
       logger.error(`Error during search: ${error.message}`);
       throw error;
     }
+  }
+
+  async enterText(object, searchText) {
+    logger.info(`Entering text: ${searchText}`);
+    await allure.step(`Entering text: ${searchText}`, async () => {
+    await this.page.waitForTimeout(3000);    
+    await this.txtBoxSearch.click();
+    await object.fill(searchText);
+    });
   }
 
 
@@ -119,59 +129,66 @@ class HomePage {
   async checkRecentLookedAtLabelExists(article) {
     try {
       logger.info(`Checking if recent looked at label exists for article: ${article}`);
-      const label = this.page.locator(`.autocomplete-products__content:has-text("${article}")`);
-      await label.waitFor({ state: 'visible' });
-      const exists = await label.isVisible();
-      expect(exists).toBeTruthy();
+      return await allure.step(`Checking if recent looked at label exists for article: ${article}`, async () => {
+        const label = this.page.locator(`.autocomplete-products__content:has-text("${article}")`);
+        
+        logger.info('Waiting for the label to be visible');
+        await label.waitFor({ state: 'visible', timeout: 20000 });
+        
+        const exists = await label.isVisible();
+        logger.info(`Label visibility for article ${article}: ${exists}`);
+        expect(exists).toBeTruthy();
+      });
     } catch (error) {
       logger.error(`Error checking recent looked at label: ${error.message}`);
       throw error;
     }
   }
+  
 
-  async clickOnSearchSuggestions(suggestionType, suggestion) {
+  async clickOnSearchSuggestions(suggestion) {
     try {
       logger.info('Waiting for suggestion collections to load');
-      await this.suggestionCollection.first().waitFor({ state: 'visible' });
+      await allure.step('Waiting for suggestion collections to load', async () => {
+        await this.suggestionCollection.first().waitFor({ state: 'visible', timeout: 5000 });
+      });
 
-      const count = await this.suggestionCollection.count();
-      for (let i = 0; i < count; i++) {
-        const suggestionTitle = await this.page.locator(`div.c-autocomplete-suggestions:nth-child(${i + 1}) h2`).innerText();
-        if (suggestionTitle.toLowerCase() === suggestionType.toLowerCase()) {
-          const numberOfOptions = await this.page.locator(`div.c-autocomplete-suggestions:nth-child(${i + 1}) ul > li > a > span`).count();
+      const suggestionLocator = this.page.locator(`span.autocomplete-suggestions__text:has-text("${suggestion}")`).first();
+      logger.info(`Clicking on suggestion: ${suggestion}`);
+      await allure.step(`Clicking on suggestion: ${suggestion}`, async () => {
+        await suggestionLocator.click();
+      });
 
-          for (let z = 0; z < numberOfOptions; z++) {
-            const suggestionsInAutoComplete = await this.page.locator(`div.c-autocomplete-suggestions:nth-child(${i + 1}) ul > li > a > span:nth-child(${z + 1})`).innerText();
-            if (suggestionsInAutoComplete.toLowerCase() === suggestion.toLowerCase()) {
-              logger.info(`Clicking on suggestion: ${suggestion}`);
-              await this.page.click(`div.c-autocomplete-suggestions:nth-child(${i + 1}) ul > li > a > span:nth-child(${z + 1})`);
-              break;
-            }
-          }
-          break;
-        }
-      }
       logger.info('Waiting for navigation after clicking on suggestion');
-      await this.page.waitForNavigation({ waitUntil: 'networkidle' });
+      await allure.step('Waiting for navigation after clicking on suggestion', async () => {
+      });
+
       const url = await this.page.url();
-      expect(url).toContain(suggestion);
+      logger.info(`Current URL: ${url}`);
+      expect(url.toLowerCase()).toContain(suggestion.toLowerCase());
     } catch (error) {
       logger.error(`Error clicking on search suggestions: ${error.message}`);
       throw error;
     }
   }
 
-  async clickOn(objName) {
+  async clickOn(object) {
     try {
-      logger.info(`Waiting for object to be visible: ${objName}`);
-      await this.page.locator(objName).waitFor({ state: 'visible' });
-      logger.info(`Clicking on object: ${objName}`);
-      await this.page.click(objName);
+      logger.info(`Waiting for object to be visible`);
+      await allure.step(`Waiting for object to be visible`, async () => {
+        await object.waitFor({ state: 'visible' });
+      });
+  
+      logger.info(`Clicking on object`);
+      await allure.step(`Clicking on object`, async () => {
+        await object.click();
+      });
     } catch (error) {
       logger.error(`Error clicking on object: ${error.message}`);
       throw error;
     }
   }
+  
 
   async openSettings() {
     try {

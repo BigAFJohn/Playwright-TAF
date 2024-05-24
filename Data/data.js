@@ -44,6 +44,7 @@ module.exports = {
     option2: '10.0', //'2.5',
     option3: 'Rimini', //'Imola',
     searchTerm: 'Plieger',
+    searchSuggestion: 'plie',
     filterTerm1: 'Wastafel',
     filterProductType1: 'Wastafel',
     filterBrand1: 'Geberit',

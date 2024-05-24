@@ -7,6 +7,7 @@
     "test": "npx playwright test",
     "test:login": "npx playwright test tests/login.spec.js",
     "test:filters and facets": "npx playwright test tests/filtersAndFacets.spec.js",
+    "test:Search test": "npx playwright test tests/searchTests.spec.js",
     "test:headed": "npx playwright test --headed",
     "test:chrome": "npx playwright test --project=chrome",
     "lint": "eslint .",

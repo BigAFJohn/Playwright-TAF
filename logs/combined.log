@@ -6409,3 +6409,695 @@ Call log:
   [2m- expect.toBeVisible with timeout 15000ms[22m
 [2m  - waiting for locator('p.c-pagination__number-of-results').first()[22m
 
+2024-05-24 20:34:54 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 20:34:54 [[32minfo[39m]: Clicking on the login button
+2024-05-24 20:35:14 [[32minfo[39m]: Entering email
+2024-05-24 20:35:16 [[32minfo[39m]: Entering password
+2024-05-24 20:35:18 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 20:35:20 [[32minfo[39m]: Form submitted
+2024-05-24 20:35:20 [[32minfo[39m]: Starting test case: 002_01_Searching_By_clicking_SearchSuggestion
+2024-05-24 20:35:20 [[31merror[39m]: Test case 002_01_Searching_By_clicking_SearchSuggestion failed with error: homePage.enterText is not a function
+2024-05-24 20:48:12 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 20:48:12 [[32minfo[39m]: Clicking on the login button
+2024-05-24 20:48:24 [[32minfo[39m]: Entering email
+2024-05-24 20:48:26 [[32minfo[39m]: Entering password
+2024-05-24 20:48:28 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 20:48:30 [[32minfo[39m]: Form submitted
+2024-05-24 20:48:30 [[32minfo[39m]: Starting test case: 002_01_Searching_By_clicking_SearchSuggestion
+2024-05-24 20:48:30 [[32minfo[39m]: Entering text: plie
+2024-05-24 20:48:30 [[31merror[39m]: Error entering text:body is not a function
+2024-05-24 20:48:30 [[31merror[39m]: Test case 002_01_Searching_By_clicking_SearchSuggestion failed with error: body is not a function
+2024-05-24 20:51:57 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 20:51:57 [[32minfo[39m]: Clicking on the login button
+2024-05-24 20:51:59 [[32minfo[39m]: Entering email
+2024-05-24 20:52:01 [[32minfo[39m]: Entering password
+2024-05-24 20:52:03 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 20:52:05 [[32minfo[39m]: Form submitted
+2024-05-24 20:52:05 [[32minfo[39m]: Starting test case: 002_01_Searching_By_clicking_SearchSuggestion
+2024-05-24 20:52:05 [[32minfo[39m]: Entering text: plie
+2024-05-24 20:52:08 [[32minfo[39m]: Waiting for suggestion collections to load
+2024-05-24 20:52:46 [[31merror[39m]: Error clicking on search suggestions: locator.waitFor: Test timeout of 50000ms exceeded.
+Call log:
+  [2m- waiting for locator('div.c-autocomplete-suggestions').first() to be visible[22m
+
+2024-05-24 20:52:46 [[31merror[39m]: Test case 002_01_Searching_By_clicking_SearchSuggestion failed with error: locator.waitFor: Test timeout of 50000ms exceeded.
+Call log:
+  [2m- waiting for locator('div.c-autocomplete-suggestions').first() to be visible[22m
+
+2024-05-24 20:59:23 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 20:59:23 [[32minfo[39m]: Clicking on the login button
+2024-05-24 20:59:25 [[32minfo[39m]: Entering email
+2024-05-24 20:59:27 [[32minfo[39m]: Entering password
+2024-05-24 20:59:29 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 20:59:31 [[32minfo[39m]: Form submitted
+2024-05-24 20:59:31 [[32minfo[39m]: Starting test case: 002_01_Searching_By_clicking_SearchSuggestion
+2024-05-24 20:59:31 [[32minfo[39m]: Entering text: plie
+2024-05-24 20:59:34 [[32minfo[39m]: Waiting for suggestion collections to load
+2024-05-24 20:59:39 [[31merror[39m]: Error clicking on search suggestions: locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  [2m- waiting for locator('div.c-autocomplete-suggestions').first() to be visible[22m
+
+2024-05-24 20:59:39 [[31merror[39m]: Test case 002_01_Searching_By_clicking_SearchSuggestion failed with error: locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  [2m- waiting for locator('div.c-autocomplete-suggestions').first() to be visible[22m
+
+2024-05-24 21:09:03 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 21:09:03 [[32minfo[39m]: Clicking on the login button
+2024-05-24 21:09:05 [[32minfo[39m]: Entering email
+2024-05-24 21:09:07 [[32minfo[39m]: Entering password
+2024-05-24 21:09:09 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 21:09:11 [[32minfo[39m]: Form submitted
+2024-05-24 21:09:11 [[32minfo[39m]: Starting test case: 002_01_Searching_By_clicking_SearchSuggestion
+2024-05-24 21:09:11 [[32minfo[39m]: Entering text: plie
+2024-05-24 21:09:14 [[32minfo[39m]: Waiting for suggestion collections to load
+2024-05-24 21:09:20 [[31merror[39m]: Error clicking on search suggestions: locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  [2m- waiting for locator('div.c-autocomplete-suggestions').first() to be visible[22m
+
+2024-05-24 21:09:20 [[31merror[39m]: Test case 002_01_Searching_By_clicking_SearchSuggestion failed with error: locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  [2m- waiting for locator('div.c-autocomplete-suggestions').first() to be visible[22m
+
+2024-05-24 21:09:42 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 21:09:43 [[32minfo[39m]: Clicking on the login button
+2024-05-24 21:09:45 [[32minfo[39m]: Entering email
+2024-05-24 21:09:47 [[32minfo[39m]: Entering password
+2024-05-24 21:09:49 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 21:09:51 [[32minfo[39m]: Form submitted
+2024-05-24 21:09:51 [[32minfo[39m]: Starting test case: 002_01_Searching_By_clicking_SearchSuggestion
+2024-05-24 21:09:51 [[32minfo[39m]: Entering text: plie
+2024-05-24 21:09:54 [[32minfo[39m]: Waiting for suggestion collections to load
+2024-05-24 21:09:59 [[31merror[39m]: Error clicking on search suggestions: locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  [2m- waiting for locator('div.c-autocomplete-suggestions').first() to be visible[22m
+
+2024-05-24 21:09:59 [[31merror[39m]: Test case 002_01_Searching_By_clicking_SearchSuggestion failed with error: locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  [2m- waiting for locator('div.c-autocomplete-suggestions').first() to be visible[22m
+
+2024-05-24 21:17:42 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 21:17:42 [[32minfo[39m]: Clicking on the login button
+2024-05-24 21:17:45 [[32minfo[39m]: Entering email
+2024-05-24 21:17:47 [[32minfo[39m]: Entering password
+2024-05-24 21:17:49 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 21:17:51 [[32minfo[39m]: Form submitted
+2024-05-24 21:17:51 [[32minfo[39m]: Starting test case: 002_01_Searching_By_clicking_SearchSuggestion
+2024-05-24 21:17:51 [[32minfo[39m]: Entering text: plie
+2024-05-24 21:17:54 [[32minfo[39m]: Waiting for suggestion collections to load
+2024-05-24 21:17:59 [[31merror[39m]: Error clicking on search suggestions: locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  [2m- waiting for locator('div.c-autocomplete-suggestions').first() to be visible[22m
+
+2024-05-24 21:17:59 [[31merror[39m]: Test case 002_01_Searching_By_clicking_SearchSuggestion failed with error: locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  [2m- waiting for locator('div.c-autocomplete-suggestions').first() to be visible[22m
+
+2024-05-24 21:18:31 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 21:18:31 [[32minfo[39m]: Clicking on the login button
+2024-05-24 21:18:33 [[32minfo[39m]: Entering email
+2024-05-24 21:18:35 [[32minfo[39m]: Entering password
+2024-05-24 21:18:37 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 21:18:39 [[32minfo[39m]: Form submitted
+2024-05-24 21:18:39 [[32minfo[39m]: Starting test case: 002_01_Searching_By_clicking_SearchSuggestion
+2024-05-24 21:18:39 [[32minfo[39m]: Entering text: plie
+2024-05-24 21:18:42 [[32minfo[39m]: Waiting for suggestion collections to load
+2024-05-24 21:18:47 [[31merror[39m]: Error clicking on search suggestions: locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  [2m- waiting for locator('div.c-autocomplete-suggestions').first() to be visible[22m
+
+2024-05-24 21:18:47 [[31merror[39m]: Test case 002_01_Searching_By_clicking_SearchSuggestion failed with error: locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  [2m- waiting for locator('div.c-autocomplete-suggestions').first() to be visible[22m
+
+2024-05-24 21:23:03 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 21:23:03 [[32minfo[39m]: Clicking on the login button
+2024-05-24 21:23:05 [[32minfo[39m]: Entering email
+2024-05-24 21:23:07 [[32minfo[39m]: Entering password
+2024-05-24 21:23:09 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 21:23:11 [[32minfo[39m]: Form submitted
+2024-05-24 21:23:11 [[32minfo[39m]: Starting test case: 002_01_Searching_By_clicking_SearchSuggestion
+2024-05-24 21:23:11 [[32minfo[39m]: Entering text: plie
+2024-05-24 21:23:14 [[32minfo[39m]: Waiting for suggestion collections to load
+2024-05-24 21:23:20 [[31merror[39m]: Error clicking on search suggestions: locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  [2m- waiting for locator('div.c-autocomplete-suggestions').first() to be visible[22m
+
+2024-05-24 21:23:20 [[31merror[39m]: Test case 002_01_Searching_By_clicking_SearchSuggestion failed with error: locator.waitFor: Timeout 5000ms exceeded.
+Call log:
+  [2m- waiting for locator('div.c-autocomplete-suggestions').first() to be visible[22m
+
+2024-05-24 21:24:22 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 21:24:22 [[32minfo[39m]: Clicking on the login button
+2024-05-24 21:24:24 [[32minfo[39m]: Entering email
+2024-05-24 21:24:26 [[32minfo[39m]: Entering password
+2024-05-24 21:24:28 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 21:24:30 [[32minfo[39m]: Form submitted
+2024-05-24 21:24:30 [[32minfo[39m]: Starting test case: 002_01_Searching_By_clicking_SearchSuggestion
+2024-05-24 21:24:33 [[32minfo[39m]: Entering text: plie
+2024-05-24 21:24:37 [[32minfo[39m]: Waiting for suggestion collections to load
+2024-05-24 21:24:37 [[32minfo[39m]: Clicking on suggestion: Plieger
+2024-05-24 21:24:37 [[31merror[39m]: Error clicking on search suggestions: locator.click: Error: strict mode violation: locator('span.autocomplete-suggestions__text:has-text("Plieger")') resolved to 3 elements:
+    1) <span class="autocomplete-suggestions__text">…</span> aka getByRole('link', { name: 'plieger', exact: true })
+    2) <span class="autocomplete-suggestions__text">…</span> aka getByRole('link', { name: 'Mobile Test Producten Stock levels GC24 en Plieger in Test GC24' })
+    3) <span class="autocomplete-suggestions__text">…</span> aka getByRole('link', { name: 'Mobile Test Producten Stock levels alleen Plieger in Test GC24' })
+
+Call log:
+  [2m- waiting for locator('span.autocomplete-suggestions__text:has-text("Plieger")')[22m
+
+2024-05-24 21:24:37 [[31merror[39m]: Test case 002_01_Searching_By_clicking_SearchSuggestion failed with error: locator.click: Error: strict mode violation: locator('span.autocomplete-suggestions__text:has-text("Plieger")') resolved to 3 elements:
+    1) <span class="autocomplete-suggestions__text">…</span> aka getByRole('link', { name: 'plieger', exact: true })
+    2) <span class="autocomplete-suggestions__text">…</span> aka getByRole('link', { name: 'Mobile Test Producten Stock levels GC24 en Plieger in Test GC24' })
+    3) <span class="autocomplete-suggestions__text">…</span> aka getByRole('link', { name: 'Mobile Test Producten Stock levels alleen Plieger in Test GC24' })
+
+Call log:
+  [2m- waiting for locator('span.autocomplete-suggestions__text:has-text("Plieger")')[22m
+
+2024-05-24 21:27:20 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 21:27:20 [[32minfo[39m]: Clicking on the login button
+2024-05-24 21:27:22 [[32minfo[39m]: Entering email
+2024-05-24 21:27:24 [[32minfo[39m]: Entering password
+2024-05-24 21:27:26 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 21:27:28 [[32minfo[39m]: Form submitted
+2024-05-24 21:27:28 [[32minfo[39m]: Starting test case: 002_01_Searching_By_clicking_SearchSuggestion
+2024-05-24 21:27:28 [[32minfo[39m]: Entering text: plie
+2024-05-24 21:27:28 [[31merror[39m]: Test case 002_01_Searching_By_clicking_SearchSuggestion failed with error: page is not defined
+2024-05-24 21:28:28 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 21:28:28 [[32minfo[39m]: Clicking on the login button
+2024-05-24 21:28:30 [[32minfo[39m]: Entering email
+2024-05-24 21:28:32 [[32minfo[39m]: Entering password
+2024-05-24 21:28:34 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 21:28:36 [[32minfo[39m]: Form submitted
+2024-05-24 21:28:36 [[32minfo[39m]: Starting test case: 002_01_Searching_By_clicking_SearchSuggestion
+2024-05-24 21:28:36 [[32minfo[39m]: Entering text: plie
+2024-05-24 21:28:42 [[32minfo[39m]: Waiting for suggestion collections to load
+2024-05-24 21:28:42 [[32minfo[39m]: Clicking on suggestion: Plieger
+2024-05-24 21:28:42 [[31merror[39m]: Error clicking on search suggestions: locator.click: Error: strict mode violation: locator('span.autocomplete-suggestions__text:has-text("Plieger")') resolved to 3 elements:
+    1) <span class="autocomplete-suggestions__text">…</span> aka getByRole('link', { name: 'plieger', exact: true })
+    2) <span class="autocomplete-suggestions__text">…</span> aka getByRole('link', { name: 'Mobile Test Producten Stock levels GC24 en Plieger in Test GC24' })
+    3) <span class="autocomplete-suggestions__text">…</span> aka getByRole('link', { name: 'Mobile Test Producten Stock levels alleen Plieger in Test GC24' })
+
+Call log:
+  [2m- waiting for locator('span.autocomplete-suggestions__text:has-text("Plieger")')[22m
+
+2024-05-24 21:28:42 [[31merror[39m]: Test case 002_01_Searching_By_clicking_SearchSuggestion failed with error: locator.click: Error: strict mode violation: locator('span.autocomplete-suggestions__text:has-text("Plieger")') resolved to 3 elements:
+    1) <span class="autocomplete-suggestions__text">…</span> aka getByRole('link', { name: 'plieger', exact: true })
+    2) <span class="autocomplete-suggestions__text">…</span> aka getByRole('link', { name: 'Mobile Test Producten Stock levels GC24 en Plieger in Test GC24' })
+    3) <span class="autocomplete-suggestions__text">…</span> aka getByRole('link', { name: 'Mobile Test Producten Stock levels alleen Plieger in Test GC24' })
+
+Call log:
+  [2m- waiting for locator('span.autocomplete-suggestions__text:has-text("Plieger")')[22m
+
+2024-05-24 21:32:27 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 21:32:27 [[32minfo[39m]: Clicking on the login button
+2024-05-24 21:32:29 [[32minfo[39m]: Entering email
+2024-05-24 21:32:31 [[32minfo[39m]: Entering password
+2024-05-24 21:32:33 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 21:32:35 [[32minfo[39m]: Form submitted
+2024-05-24 21:32:35 [[32minfo[39m]: Starting test case: 002_01_Searching_By_clicking_SearchSuggestion
+2024-05-24 21:32:35 [[32minfo[39m]: Entering text: plie
+2024-05-24 21:32:41 [[32minfo[39m]: Waiting for suggestion collections to load
+2024-05-24 21:32:41 [[32minfo[39m]: Clicking on suggestion: Plieger
+2024-05-24 21:32:41 [[32minfo[39m]: Waiting for navigation after clicking on suggestion
+2024-05-24 21:33:16 [[31merror[39m]: Error clicking on search suggestions: page.waitForNavigation: Test timeout of 50000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "networkidle"
+============================================================
+2024-05-24 21:33:16 [[31merror[39m]: Test case 002_01_Searching_By_clicking_SearchSuggestion failed with error: page.waitForNavigation: Test timeout of 50000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "networkidle"
+============================================================
+2024-05-24 21:35:04 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 21:35:04 [[32minfo[39m]: Clicking on the login button
+2024-05-24 21:35:07 [[32minfo[39m]: Entering email
+2024-05-24 21:35:09 [[32minfo[39m]: Entering password
+2024-05-24 21:35:11 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 21:35:13 [[32minfo[39m]: Form submitted
+2024-05-24 21:35:13 [[32minfo[39m]: Starting test case: 002_01_Searching_By_clicking_SearchSuggestion
+2024-05-24 21:35:13 [[32minfo[39m]: Entering text: plie
+2024-05-24 21:35:19 [[32minfo[39m]: Waiting for suggestion collections to load
+2024-05-24 21:35:19 [[32minfo[39m]: Clicking on suggestion: Plieger
+2024-05-24 21:35:19 [[32minfo[39m]: Waiting for navigation after clicking on suggestion
+2024-05-24 21:35:19 [[32minfo[39m]: Current URL: https://ecomstag.plieger.nl/search/?q=plieger
+2024-05-24 21:35:19 [[31merror[39m]: Error clicking on search suggestions: [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+Expected substring: [32m"Plieger"[39m
+Received string:    [31m"https://ecomstag.plieger.nl/search/?q=plieger"[39m
+2024-05-24 21:35:19 [[31merror[39m]: Test case 002_01_Searching_By_clicking_SearchSuggestion failed with error: [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+Expected substring: [32m"Plieger"[39m
+Received string:    [31m"https://ecomstag.plieger.nl/search/?q=plieger"[39m
+2024-05-24 21:43:31 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 21:43:31 [[32minfo[39m]: Clicking on the login button
+2024-05-24 21:43:33 [[32minfo[39m]: Entering email
+2024-05-24 21:43:35 [[32minfo[39m]: Entering password
+2024-05-24 21:43:37 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 21:43:39 [[32minfo[39m]: Form submitted
+2024-05-24 21:43:39 [[32minfo[39m]: Starting test case: 002_01_Searching_By_clicking_SearchSuggestion
+2024-05-24 21:43:39 [[32minfo[39m]: Entering text: plie
+2024-05-24 21:43:45 [[32minfo[39m]: Waiting for suggestion collections to load
+2024-05-24 21:43:45 [[32minfo[39m]: Clicking on suggestion: Plieger
+2024-05-24 21:43:45 [[32minfo[39m]: Waiting for navigation after clicking on suggestion
+2024-05-24 21:44:20 [[31merror[39m]: Error clicking on search suggestions: page.waitForNavigation: Test timeout of 50000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "networkidle"
+============================================================
+2024-05-24 21:44:20 [[31merror[39m]: Test case 002_01_Searching_By_clicking_SearchSuggestion failed with error: page.waitForNavigation: Test timeout of 50000ms exceeded.
+=========================== logs ===========================
+waiting for navigation until "networkidle"
+============================================================
+2024-05-24 21:44:59 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 21:44:59 [[32minfo[39m]: Clicking on the login button
+2024-05-24 21:45:02 [[32minfo[39m]: Entering email
+2024-05-24 21:45:04 [[32minfo[39m]: Entering password
+2024-05-24 21:45:06 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 21:45:08 [[32minfo[39m]: Form submitted
+2024-05-24 21:45:08 [[32minfo[39m]: Starting test case: 002_01_Searching_By_clicking_SearchSuggestion
+2024-05-24 21:45:08 [[32minfo[39m]: Entering text: plie
+2024-05-24 21:45:14 [[32minfo[39m]: Waiting for suggestion collections to load
+2024-05-24 21:45:14 [[32minfo[39m]: Clicking on suggestion: Plieger
+2024-05-24 21:45:14 [[32minfo[39m]: Waiting for navigation after clicking on suggestion
+2024-05-24 21:45:14 [[32minfo[39m]: Current URL: https://ecomstag.plieger.nl/search/?q=plieger
+2024-05-24 21:45:14 [[32minfo[39m]: Checking if element exists
+2024-05-24 21:52:52 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 21:52:52 [[32minfo[39m]: Clicking on the login button
+2024-05-24 21:52:54 [[32minfo[39m]: Entering email
+2024-05-24 21:52:56 [[32minfo[39m]: Entering password
+2024-05-24 21:52:59 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 21:53:01 [[32minfo[39m]: Form submitted
+2024-05-24 21:53:01 [[32minfo[39m]: Starting test case: 002_01_Searching_By_clicking_SearchSuggestion
+2024-05-24 21:53:01 [[32minfo[39m]: Entering text: plie
+2024-05-24 21:53:07 [[32minfo[39m]: Waiting for suggestion collections to load
+2024-05-24 21:53:07 [[32minfo[39m]: Clicking on suggestion: Plieger
+2024-05-24 21:53:07 [[32minfo[39m]: Waiting for navigation after clicking on suggestion
+2024-05-24 21:53:07 [[32minfo[39m]: Current URL: https://ecomstag.plieger.nl/search/?q=plieger
+2024-05-24 21:53:07 [[32minfo[39m]: Checking if element exists
+2024-05-24 21:53:08 [[32minfo[39m]: The element locator('p.c-pagination__number-of-results').first() is visible
+2024-05-24 21:57:34 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 21:57:34 [[32minfo[39m]: Clicking on the login button
+2024-05-24 21:57:36 [[32minfo[39m]: Entering email
+2024-05-24 21:57:38 [[32minfo[39m]: Entering password
+2024-05-24 21:57:40 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 21:57:42 [[32minfo[39m]: Form submitted
+2024-05-24 21:57:42 [[32minfo[39m]: Starting test case: 002_03_Searching_By_Exact_EAN
+2024-05-24 21:57:42 [[32minfo[39m]: Entering search text: 8711238189994
+2024-05-24 21:57:45 [[32minfo[39m]: Getting product details
+2024-05-24 21:57:46 [[31merror[39m]: Test case 002_03_Searching_By_Exact_EAN failed with error: [2mexpect([22m[31mreceived[39m[2m).[22mtoEqual[2m([22m[32mexpected[39m[2m) // deep equality[22m
+
+Expected: [32m"\"8711238189994\""[39m
+Received: [31m"Geen resultaten gevonden"[39m
+2024-05-24 22:00:19 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 22:00:19 [[32minfo[39m]: Clicking on the login button
+2024-05-24 22:00:22 [[32minfo[39m]: Entering email
+2024-05-24 22:00:24 [[32minfo[39m]: Entering password
+2024-05-24 22:00:26 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 22:00:28 [[32minfo[39m]: Form submitted
+2024-05-24 22:00:28 [[32minfo[39m]: Starting test case: 002_03_Searching_By_Exact_EAN
+2024-05-24 22:00:28 [[32minfo[39m]: Entering search text: 8711238189994
+2024-05-24 22:00:31 [[32minfo[39m]: Getting product details
+2024-05-24 22:02:20 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 22:02:20 [[32minfo[39m]: Clicking on the login button
+2024-05-24 22:02:22 [[32minfo[39m]: Entering email
+2024-05-24 22:02:24 [[32minfo[39m]: Entering password
+2024-05-24 22:02:26 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 22:02:28 [[32minfo[39m]: Form submitted
+2024-05-24 22:02:28 [[32minfo[39m]: Starting test case: 002_03_Searching_By_Exact_EAN
+2024-05-24 22:02:28 [[32minfo[39m]: Entering search text: 8711238189994
+2024-05-24 22:02:32 [[32minfo[39m]: Getting product details
+2024-05-24 22:02:35 [[32minfo[39m]: Product details retrieved: "8711238189994"
+2024-05-24 22:04:23 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 22:04:23 [[32minfo[39m]: Clicking on the login button
+2024-05-24 22:04:25 [[32minfo[39m]: Entering email
+2024-05-24 22:04:27 [[32minfo[39m]: Entering password
+2024-05-24 22:04:29 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 22:04:31 [[32minfo[39m]: Form submitted
+2024-05-24 22:04:31 [[32minfo[39m]: Starting test case: 002_04_Searching_By_Exact_Article
+2024-05-24 22:04:31 [[32minfo[39m]: Entering search text: 4390074
+2024-05-24 22:04:35 [[32minfo[39m]: Getting product details
+2024-05-24 22:04:38 [[32minfo[39m]: Product details retrieved: "4390074"
+2024-05-24 22:05:41 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 22:05:41 [[32minfo[39m]: Clicking on the login button
+2024-05-24 22:05:43 [[32minfo[39m]: Entering email
+2024-05-24 22:05:45 [[32minfo[39m]: Entering password
+2024-05-24 22:05:47 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 22:05:49 [[32minfo[39m]: Form submitted
+2024-05-24 22:05:49 [[32minfo[39m]: Starting test case: 002_05_Searching_By_Term
+2024-05-24 22:05:49 [[32minfo[39m]: Entering search text: Roma
+2024-05-24 22:05:52 [[32minfo[39m]: Checking if search term is displayed: "Roma"
+2024-05-24 22:05:53 [[31merror[39m]: Test case 002_05_Searching_By_Term failed with error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"\"Roma\""[39m
+Received: [31m"Geen resultaten gevonden"[39m
+2024-05-24 22:07:05 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 22:07:05 [[32minfo[39m]: Clicking on the login button
+2024-05-24 22:07:07 [[32minfo[39m]: Entering email
+2024-05-24 22:07:09 [[32minfo[39m]: Entering password
+2024-05-24 22:07:11 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 22:07:13 [[32minfo[39m]: Form submitted
+2024-05-24 22:07:13 [[32minfo[39m]: Starting test case: 002_05_Searching_By_Term
+2024-05-24 22:07:13 [[32minfo[39m]: Entering search text: Roma
+2024-05-24 22:07:16 [[32minfo[39m]: Checking if search term is displayed: "Roma"
+2024-05-24 22:08:47 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 22:08:47 [[32minfo[39m]: Clicking on the login button
+2024-05-24 22:08:49 [[32minfo[39m]: Entering email
+2024-05-24 22:08:51 [[32minfo[39m]: Entering password
+2024-05-24 22:08:53 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 22:08:55 [[32minfo[39m]: Form submitted
+2024-05-24 22:08:55 [[32minfo[39m]: Starting test case: 002_05_Searching_By_Term
+2024-05-24 22:08:55 [[32minfo[39m]: Entering search text: Roma
+2024-05-24 22:08:59 [[32minfo[39m]: Checking if search term is displayed: "Roma"
+2024-05-24 22:09:02 [[32minfo[39m]: Displayed term retrieved: "Roma"
+2024-05-24 22:10:09 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 22:10:09 [[32minfo[39m]: Clicking on the login button
+2024-05-24 22:10:12 [[32minfo[39m]: Entering email
+2024-05-24 22:10:14 [[32minfo[39m]: Entering password
+2024-05-24 22:10:16 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 22:10:18 [[32minfo[39m]: Form submitted
+2024-05-24 22:10:18 [[32minfo[39m]: Starting test case: 002_06_Searching_By_Category
+2024-05-24 22:10:18 [[32minfo[39m]: Entering search text: Verwarming
+2024-05-24 22:10:21 [[32minfo[39m]: Checking if element exists
+2024-05-24 22:10:22 [[32minfo[39m]: The element locator('p.c-pagination__number-of-results').first() is visible
+2024-05-24 22:12:42 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 22:12:42 [[32minfo[39m]: Clicking on the login button
+2024-05-24 22:12:44 [[32minfo[39m]: Entering email
+2024-05-24 22:12:46 [[32minfo[39m]: Entering password
+2024-05-24 22:12:48 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 22:12:50 [[32minfo[39m]: Form submitted
+2024-05-24 22:12:50 [[32minfo[39m]: Starting test case: 002_07_Search_Clicking_On_First_Last_Viewed_Articles
+2024-05-24 22:12:50 [[32minfo[39m]: Entering search text: 4390074
+2024-05-24 22:12:53 [[32minfo[39m]: Waiting for object to be visible: locator('.c-product-tile:has-text("4390074")')
+2024-05-24 22:12:53 [[31merror[39m]: Error clicking on object: locator.waitFor: selector: expected string, got object
+2024-05-24 22:12:53 [[31merror[39m]: Test case 002_07_Search_Clicking_On_First_Last_Viewed_Articles failed with error: locator.waitFor: selector: expected string, got object
+2024-05-24 22:19:23 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 22:19:23 [[32minfo[39m]: Clicking on the login button
+2024-05-24 22:19:25 [[32minfo[39m]: Entering email
+2024-05-24 22:19:27 [[32minfo[39m]: Entering password
+2024-05-24 22:19:29 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 22:19:31 [[32minfo[39m]: Form submitted
+2024-05-24 22:19:31 [[32minfo[39m]: Starting test case: 002_07_Search_Clicking_On_First_Last_Viewed_Articles
+2024-05-24 22:19:31 [[32minfo[39m]: Entering search text: 4390074
+2024-05-24 22:19:35 [[32minfo[39m]: Waiting for object to be visible
+2024-05-24 22:19:36 [[32minfo[39m]: Clicking on object
+2024-05-24 22:19:36 [[32minfo[39m]: Waiting for object to be visible
+2024-05-24 22:19:36 [[32minfo[39m]: Clicking on object
+2024-05-24 22:19:36 [[32minfo[39m]: Waiting for object to be visible
+2024-05-24 22:19:36 [[32minfo[39m]: Clicking on object
+2024-05-24 22:19:38 [[32minfo[39m]: Checking if recent looked at label exists for article: 4390074
+2024-05-24 22:20:12 [[31merror[39m]: Error checking recent looked at label: locator.waitFor: Test timeout of 50000ms exceeded.
+Call log:
+  [2m- waiting for locator('.autocomplete-products__content:has-text("4390074")') to be visible[22m
+
+2024-05-24 22:20:12 [[31merror[39m]: Test case 002_07_Search_Clicking_On_First_Last_Viewed_Articles failed with error: locator.waitFor: Test timeout of 50000ms exceeded.
+Call log:
+  [2m- waiting for locator('.autocomplete-products__content:has-text("4390074")') to be visible[22m
+
+2024-05-24 22:22:42 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 22:22:43 [[32minfo[39m]: Clicking on the login button
+2024-05-24 22:22:45 [[32minfo[39m]: Entering email
+2024-05-24 22:22:47 [[32minfo[39m]: Entering password
+2024-05-24 22:22:49 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 22:22:51 [[32minfo[39m]: Form submitted
+2024-05-24 22:22:51 [[32minfo[39m]: Starting test case: 002_07_Search_Clicking_On_First_Last_Viewed_Articles
+2024-05-24 22:22:51 [[32minfo[39m]: Entering search text: 4390074
+2024-05-24 22:22:54 [[32minfo[39m]: Waiting for object to be visible
+2024-05-24 22:22:55 [[32minfo[39m]: Clicking on object
+2024-05-24 22:22:57 [[32minfo[39m]: Waiting for object to be visible
+2024-05-24 22:22:57 [[32minfo[39m]: Clicking on object
+2024-05-24 22:22:57 [[32minfo[39m]: Waiting for object to be visible
+2024-05-24 22:22:57 [[32minfo[39m]: Clicking on object
+2024-05-24 22:22:59 [[32minfo[39m]: Checking if recent looked at label exists for article: 4390074
+2024-05-24 22:23:32 [[31merror[39m]: Error checking recent looked at label: locator.waitFor: Test timeout of 50000ms exceeded.
+Call log:
+  [2m- waiting for locator('.autocomplete-products__content:has-text("4390074")') to be visible[22m
+
+2024-05-24 22:23:32 [[31merror[39m]: Test case 002_07_Search_Clicking_On_First_Last_Viewed_Articles failed with error: locator.waitFor: Test timeout of 50000ms exceeded.
+Call log:
+  [2m- waiting for locator('.autocomplete-products__content:has-text("4390074")') to be visible[22m
+
+2024-05-24 22:27:04 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 22:27:04 [[32minfo[39m]: Clicking on the login button
+2024-05-24 22:27:06 [[32minfo[39m]: Entering email
+2024-05-24 22:27:08 [[32minfo[39m]: Entering password
+2024-05-24 22:27:10 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 22:27:12 [[32minfo[39m]: Form submitted
+2024-05-24 22:27:12 [[32minfo[39m]: Starting test case: 002_07_Search_Clicking_On_First_Last_Viewed_Articles
+2024-05-24 22:27:12 [[32minfo[39m]: Entering search text: 4390074
+2024-05-24 22:27:16 [[32minfo[39m]: Waiting for object to be visible
+2024-05-24 22:27:17 [[32minfo[39m]: Clicking on object
+2024-05-24 22:27:17 [[32minfo[39m]: Waiting for object to be visible
+2024-05-24 22:27:17 [[32minfo[39m]: Clicking on object
+2024-05-24 22:27:17 [[32minfo[39m]: Waiting for object to be visible
+2024-05-24 22:27:21 [[32minfo[39m]: Clicking on object
+2024-05-24 22:27:23 [[32minfo[39m]: Checking if recent looked at label exists for article: 4390074
+2024-05-24 22:27:23 [[32minfo[39m]: Waiting for the label to be visible
+2024-05-24 22:27:23 [[32minfo[39m]: Label visibility for article 4390074: true
+2024-05-24 22:28:19 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 22:28:19 [[32minfo[39m]: Clicking on the login button
+2024-05-24 22:28:21 [[32minfo[39m]: Entering email
+2024-05-24 22:28:23 [[32minfo[39m]: Entering password
+2024-05-24 22:28:25 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 22:28:27 [[32minfo[39m]: Form submitted
+2024-05-24 22:28:27 [[32minfo[39m]: Starting test case: 002_01_Searching_By_clicking_SearchSuggestion
+2024-05-24 22:28:27 [[32minfo[39m]: Entering text: plie
+2024-05-24 22:28:33 [[32minfo[39m]: Waiting for suggestion collections to load
+2024-05-24 22:28:33 [[32minfo[39m]: Clicking on suggestion: Plieger
+2024-05-24 22:28:33 [[32minfo[39m]: Waiting for navigation after clicking on suggestion
+2024-05-24 22:28:33 [[32minfo[39m]: Current URL: https://ecomstag.plieger.nl/search/?q=plieger
+2024-05-24 22:28:33 [[32minfo[39m]: Checking if element exists
+2024-05-24 22:28:34 [[32minfo[39m]: The element locator('p.c-pagination__number-of-results').first() is visible
+2024-05-24 22:28:36 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 22:28:36 [[32minfo[39m]: Clicking on the login button
+2024-05-24 22:28:38 [[32minfo[39m]: Entering email
+2024-05-24 22:28:40 [[32minfo[39m]: Entering password
+2024-05-24 22:28:42 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 22:28:44 [[32minfo[39m]: Form submitted
+2024-05-24 22:28:44 [[32minfo[39m]: Starting test case: 002_03_Searching_By_Exact_EAN
+2024-05-24 22:28:44 [[32minfo[39m]: Entering search text: 8711238189994
+2024-05-24 22:28:48 [[32minfo[39m]: Getting product details
+2024-05-24 22:28:51 [[32minfo[39m]: Product details retrieved: "8711238189994"
+2024-05-24 22:28:52 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 22:28:52 [[32minfo[39m]: Clicking on the login button
+2024-05-24 22:28:55 [[32minfo[39m]: Entering email
+2024-05-24 22:28:57 [[32minfo[39m]: Entering password
+2024-05-24 22:28:59 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 22:29:01 [[32minfo[39m]: Form submitted
+2024-05-24 22:29:01 [[32minfo[39m]: Starting test case: 002_04_Searching_By_Exact_Article
+2024-05-24 22:29:01 [[32minfo[39m]: Entering search text: 4390074
+2024-05-24 22:29:04 [[32minfo[39m]: Getting product details
+2024-05-24 22:29:07 [[32minfo[39m]: Product details retrieved: "4390074"
+2024-05-24 22:29:09 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 22:29:09 [[32minfo[39m]: Clicking on the login button
+2024-05-24 22:29:11 [[32minfo[39m]: Entering email
+2024-05-24 22:29:13 [[32minfo[39m]: Entering password
+2024-05-24 22:29:15 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 22:29:17 [[32minfo[39m]: Form submitted
+2024-05-24 22:29:17 [[32minfo[39m]: Starting test case: 002_05_Searching_By_Term
+2024-05-24 22:29:17 [[32minfo[39m]: Entering search text: Roma
+2024-05-24 22:29:20 [[32minfo[39m]: Checking if search term is displayed: "Roma"
+2024-05-24 22:29:23 [[32minfo[39m]: Displayed term retrieved: "Roma"
+2024-05-24 22:29:25 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 22:29:25 [[32minfo[39m]: Clicking on the login button
+2024-05-24 22:29:27 [[32minfo[39m]: Entering email
+2024-05-24 22:29:29 [[32minfo[39m]: Entering password
+2024-05-24 22:29:31 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 22:29:33 [[32minfo[39m]: Form submitted
+2024-05-24 22:29:33 [[32minfo[39m]: Starting test case: 002_06_Searching_By_Category
+2024-05-24 22:29:33 [[32minfo[39m]: Entering search text: Verwarming
+2024-05-24 22:29:37 [[32minfo[39m]: Checking if element exists
+2024-05-24 22:29:37 [[32minfo[39m]: The element locator('p.c-pagination__number-of-results').first() is visible
+2024-05-24 22:29:39 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 22:29:39 [[32minfo[39m]: Clicking on the login button
+2024-05-24 22:29:41 [[32minfo[39m]: Entering email
+2024-05-24 22:29:43 [[32minfo[39m]: Entering password
+2024-05-24 22:29:45 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 22:29:47 [[32minfo[39m]: Form submitted
+2024-05-24 22:29:47 [[32minfo[39m]: Starting test case: 002_07_Search_Clicking_On_First_Last_Viewed_Articles
+2024-05-24 22:29:47 [[32minfo[39m]: Entering search text: 4390074
+2024-05-24 22:29:51 [[32minfo[39m]: Waiting for object to be visible
+2024-05-24 22:29:52 [[32minfo[39m]: Clicking on object
+2024-05-24 22:29:52 [[32minfo[39m]: Waiting for object to be visible
+2024-05-24 22:29:52 [[32minfo[39m]: Clicking on object
+2024-05-24 22:29:55 [[32minfo[39m]: Waiting for object to be visible
+2024-05-24 22:29:57 [[32minfo[39m]: Clicking on object
+2024-05-24 22:29:58 [[32minfo[39m]: Checking if recent looked at label exists for article: 4390074
+2024-05-24 22:29:58 [[32minfo[39m]: Waiting for the label to be visible
+2024-05-24 22:29:58 [[32minfo[39m]: Label visibility for article 4390074: true
+2024-05-24 22:38:29 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 22:38:30 [[32minfo[39m]: Clicking on the login button
+2024-05-24 22:38:32 [[32minfo[39m]: Entering email
+2024-05-24 22:38:34 [[32minfo[39m]: Entering password
+2024-05-24 22:38:36 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 22:38:38 [[32minfo[39m]: Form submitted
+2024-05-24 22:38:38 [[32minfo[39m]: Starting test case: 002_01_Searching_By_clicking_SearchSuggestion
+2024-05-24 22:38:38 [[32minfo[39m]: Entering text: plie
+2024-05-24 22:38:44 [[32minfo[39m]: Waiting for suggestion collections to load
+2024-05-24 22:38:44 [[32minfo[39m]: Clicking on suggestion: Plieger
+2024-05-24 22:38:44 [[32minfo[39m]: Waiting for navigation after clicking on suggestion
+2024-05-24 22:38:44 [[32minfo[39m]: Current URL: https://ecomstag.plieger.nl/search/?q=plieger
+2024-05-24 22:38:44 [[32minfo[39m]: Checking if element exists
+2024-05-24 22:38:45 [[32minfo[39m]: The element locator('p.c-pagination__number-of-results').first() is visible
+2024-05-24 22:38:47 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 22:38:47 [[32minfo[39m]: Clicking on the login button
+2024-05-24 22:38:49 [[32minfo[39m]: Entering email
+2024-05-24 22:38:51 [[32minfo[39m]: Entering password
+2024-05-24 22:38:53 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 22:38:55 [[32minfo[39m]: Form submitted
+2024-05-24 22:38:55 [[32minfo[39m]: Starting test case: 002_03_Searching_By_Exact_EAN
+2024-05-24 22:38:55 [[32minfo[39m]: Entering text: 8711238189994
+2024-05-24 22:39:01 [[32minfo[39m]: Getting product details
+2024-05-24 22:39:36 [[31merror[39m]: Error getting product details: locator.textContent: Test timeout of 50000ms exceeded.
+Call log:
+  [2m- waiting for locator('h1.c-heading--h2')[22m
+
+2024-05-24 22:39:36 [[31merror[39m]: Test case 002_03_Searching_By_Exact_EAN failed with error: locator.textContent: Test timeout of 50000ms exceeded.
+Call log:
+  [2m- waiting for locator('h1.c-heading--h2')[22m
+
+2024-05-24 22:39:38 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 22:39:38 [[32minfo[39m]: Clicking on the login button
+2024-05-24 22:39:40 [[32minfo[39m]: Entering email
+2024-05-24 22:39:42 [[32minfo[39m]: Entering password
+2024-05-24 22:39:44 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 22:39:46 [[32minfo[39m]: Form submitted
+2024-05-24 22:39:46 [[32minfo[39m]: Starting test case: 002_04_Searching_By_Exact_Article
+2024-05-24 22:39:46 [[32minfo[39m]: Entering text: 4390074
+2024-05-24 22:39:53 [[32minfo[39m]: Getting product details
+2024-05-24 22:40:27 [[31merror[39m]: Error getting product details: locator.textContent: Test timeout of 50000ms exceeded.
+Call log:
+  [2m- waiting for locator('h1.c-heading--h2')[22m
+
+2024-05-24 22:40:27 [[31merror[39m]: Test case 002_04_Searching_By_Exact_Article failed with error: locator.textContent: Test timeout of 50000ms exceeded.
+Call log:
+  [2m- waiting for locator('h1.c-heading--h2')[22m
+
+2024-05-24 22:40:29 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 22:40:29 [[32minfo[39m]: Clicking on the login button
+2024-05-24 22:40:32 [[32minfo[39m]: Entering email
+2024-05-24 22:40:34 [[32minfo[39m]: Entering password
+2024-05-24 22:40:36 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 22:40:38 [[32minfo[39m]: Form submitted
+2024-05-24 22:40:38 [[32minfo[39m]: Starting test case: 002_05_Searching_By_Term
+2024-05-24 22:40:38 [[32minfo[39m]: Entering text: Roma
+2024-05-24 22:40:44 [[32minfo[39m]: Checking if search term is displayed: "Roma"
+2024-05-24 22:41:19 [[31merror[39m]: Error checking if search term is displayed: locator.innerText: Test timeout of 50000ms exceeded.
+Call log:
+  [2m- waiting for locator('.c-heading--h2')[22m
+
+2024-05-24 22:41:19 [[31merror[39m]: Test case 002_05_Searching_By_Term failed with error: locator.innerText: Test timeout of 50000ms exceeded.
+Call log:
+  [2m- waiting for locator('.c-heading--h2')[22m
+
+2024-05-24 22:41:21 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 22:41:21 [[32minfo[39m]: Clicking on the login button
+2024-05-24 22:41:23 [[32minfo[39m]: Entering email
+2024-05-24 22:41:25 [[32minfo[39m]: Entering password
+2024-05-24 22:41:27 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 22:41:29 [[32minfo[39m]: Form submitted
+2024-05-24 22:41:29 [[32minfo[39m]: Starting test case: 002_06_Searching_By_Category
+2024-05-24 22:41:29 [[32minfo[39m]: Entering text: Verwarming
+2024-05-24 22:41:35 [[32minfo[39m]: Checking if element exists
+2024-05-24 22:41:45 [[31merror[39m]: The element locator('p.c-pagination__number-of-results').first() is not visible, please check: [31mTimed out 10000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: locator('p.c-pagination__number-of-results').first()
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toBeVisible with timeout 10000ms[22m
+[2m  - waiting for locator('p.c-pagination__number-of-results').first()[22m
+
+2024-05-24 22:41:45 [[31merror[39m]: Test case 002_06_Searching_By_Category failed with error: [31mTimed out 10000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: locator('p.c-pagination__number-of-results').first()
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toBeVisible with timeout 10000ms[22m
+[2m  - waiting for locator('p.c-pagination__number-of-results').first()[22m
+
+2024-05-24 22:41:48 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 22:41:48 [[32minfo[39m]: Clicking on the login button
+2024-05-24 22:41:50 [[32minfo[39m]: Entering email
+2024-05-24 22:41:52 [[32minfo[39m]: Entering password
+2024-05-24 22:41:54 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 22:41:56 [[32minfo[39m]: Form submitted
+2024-05-24 22:41:56 [[32minfo[39m]: Starting test case: 002_07_Search_Clicking_On_First_Last_Viewed_Articles
+2024-05-24 22:41:56 [[32minfo[39m]: Entering text: 4390074
+2024-05-24 22:42:02 [[32minfo[39m]: Waiting for object to be visible
+2024-05-24 22:42:37 [[31merror[39m]: Error clicking on object: locator.waitFor: Test timeout of 50000ms exceeded.
+Call log:
+  [2m- waiting for locator('.c-product-tile:has-text("4390074")') to be visible[22m
+
+2024-05-24 22:42:37 [[31merror[39m]: Test case 002_07_Search_Clicking_On_First_Last_Viewed_Articles failed with error: locator.waitFor: Test timeout of 50000ms exceeded.
+Call log:
+  [2m- waiting for locator('.c-product-tile:has-text("4390074")') to be visible[22m
+
+2024-05-24 22:43:23 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 22:43:23 [[32minfo[39m]: Clicking on the login button
+2024-05-24 22:43:25 [[32minfo[39m]: Entering email
+2024-05-24 22:43:27 [[32minfo[39m]: Entering password
+2024-05-24 22:43:29 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 22:43:32 [[32minfo[39m]: Form submitted
+2024-05-24 22:43:32 [[32minfo[39m]: Starting test case: 002_01_Searching_By_clicking_SearchSuggestion
+2024-05-24 22:43:32 [[32minfo[39m]: Entering text: plie
+2024-05-24 22:43:38 [[32minfo[39m]: Waiting for suggestion collections to load
+2024-05-24 22:43:38 [[32minfo[39m]: Clicking on suggestion: Plieger
+2024-05-24 22:43:38 [[32minfo[39m]: Waiting for navigation after clicking on suggestion
+2024-05-24 22:43:38 [[32minfo[39m]: Current URL: https://ecomstag.plieger.nl/search/?q=plieger
+2024-05-24 22:43:38 [[32minfo[39m]: Checking if element exists
+2024-05-24 22:43:39 [[32minfo[39m]: The element locator('p.c-pagination__number-of-results').first() is visible
+2024-05-24 22:43:40 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 22:43:40 [[32minfo[39m]: Clicking on the login button
+2024-05-24 22:43:43 [[32minfo[39m]: Entering email
+2024-05-24 22:43:45 [[32minfo[39m]: Entering password
+2024-05-24 22:43:47 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 22:43:49 [[32minfo[39m]: Form submitted
+2024-05-24 22:43:49 [[32minfo[39m]: Starting test case: 002_03_Searching_By_Exact_EAN
+2024-05-24 22:43:49 [[32minfo[39m]: Entering search text: 8711238189994
+2024-05-24 22:43:52 [[32minfo[39m]: Getting product details
+2024-05-24 22:43:55 [[32minfo[39m]: Product details retrieved: "8711238189994"
+2024-05-24 22:43:57 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 22:43:57 [[32minfo[39m]: Clicking on the login button
+2024-05-24 22:43:59 [[32minfo[39m]: Entering email
+2024-05-24 22:44:01 [[32minfo[39m]: Entering password
+2024-05-24 22:44:03 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 22:44:05 [[32minfo[39m]: Form submitted
+2024-05-24 22:44:05 [[32minfo[39m]: Starting test case: 002_04_Searching_By_Exact_Article
+2024-05-24 22:44:05 [[32minfo[39m]: Entering search text: 4390074
+2024-05-24 22:44:08 [[32minfo[39m]: Getting product details
+2024-05-24 22:44:11 [[32minfo[39m]: Product details retrieved: "4390074"
+2024-05-24 22:44:13 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 22:44:13 [[32minfo[39m]: Clicking on the login button
+2024-05-24 22:44:15 [[32minfo[39m]: Entering email
+2024-05-24 22:44:17 [[32minfo[39m]: Entering password
+2024-05-24 22:44:19 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 22:44:21 [[32minfo[39m]: Form submitted
+2024-05-24 22:44:21 [[32minfo[39m]: Starting test case: 002_05_Searching_By_Term
+2024-05-24 22:44:21 [[32minfo[39m]: Entering search text: Roma
+2024-05-24 22:44:24 [[32minfo[39m]: Checking if search term is displayed: "Roma"
+2024-05-24 22:44:28 [[32minfo[39m]: Displayed term retrieved: "Roma"
+2024-05-24 22:44:29 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 22:44:29 [[32minfo[39m]: Clicking on the login button
+2024-05-24 22:44:31 [[32minfo[39m]: Entering email
+2024-05-24 22:44:33 [[32minfo[39m]: Entering password
+2024-05-24 22:44:35 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 22:44:37 [[32minfo[39m]: Form submitted
+2024-05-24 22:44:37 [[32minfo[39m]: Starting test case: 002_06_Searching_By_Category
+2024-05-24 22:44:37 [[32minfo[39m]: Entering search text: Verwarming
+2024-05-24 22:44:41 [[32minfo[39m]: Checking if element exists
+2024-05-24 22:44:42 [[32minfo[39m]: The element locator('p.c-pagination__number-of-results').first() is visible
+2024-05-24 22:44:43 [[32minfo[39m]: Closing cookies dialog if present
+2024-05-24 22:44:43 [[32minfo[39m]: Clicking on the login button
+2024-05-24 22:44:45 [[32minfo[39m]: Entering email
+2024-05-24 22:44:48 [[32minfo[39m]: Entering password
+2024-05-24 22:44:50 [[32minfo[39m]: Clicking the login submit button
+2024-05-24 22:44:52 [[32minfo[39m]: Form submitted
+2024-05-24 22:44:52 [[32minfo[39m]: Starting test case: 002_07_Search_Clicking_On_First_Last_Viewed_Articles
+2024-05-24 22:44:52 [[32minfo[39m]: Entering search text: 4390074
+2024-05-24 22:44:55 [[32minfo[39m]: Waiting for object to be visible
+2024-05-24 22:44:56 [[32minfo[39m]: Clicking on object
+2024-05-24 22:44:56 [[32minfo[39m]: Waiting for object to be visible
+2024-05-24 22:44:56 [[32minfo[39m]: Clicking on object
+2024-05-24 22:44:56 [[32minfo[39m]: Waiting for object to be visible
+2024-05-24 22:44:57 [[32minfo[39m]: Clicking on object
+2024-05-24 22:44:58 [[32minfo[39m]: Checking if recent looked at label exists for article: 4390074
+2024-05-24 22:44:58 [[32minfo[39m]: Waiting for the label to be visible
+2024-05-24 22:44:58 [[32minfo[39m]: Label visibility for article 4390074: true
